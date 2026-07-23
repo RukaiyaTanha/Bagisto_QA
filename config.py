@@ -1,6 +1,6 @@
 # config.py
-
-BASE_URL = "http://127.0.0.1:8000"
+import os
+BASE_URL = os.getenv('BASE_URL', 'http://localhost:8000')
 ADMIN_URL = BASE_URL + "/admin"
 PRODUCTS_URL = ADMIN_URL + "/catalog/products"
 CURRENCIES_URL = ADMIN_URL + "/settings/currencies"
