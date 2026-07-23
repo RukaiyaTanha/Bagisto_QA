@@ -39,7 +39,7 @@ jobs:
       # 6. Save your HTML report so you can download it
       - name: Upload Test Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-report
           path: report.html
@@ -47,7 +47,7 @@ jobs:
       # 7. Save screenshots (especially useful when tests fail)
       - name: Upload Screenshots
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: failure-screenshots
           path: screenshots/
