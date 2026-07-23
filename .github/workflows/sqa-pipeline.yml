@@ -14,11 +14,11 @@ jobs:
 
       # 1. Download your code from GitHub
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 2. Install Python
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -35,6 +35,8 @@ jobs:
         run: pytest tests/ --html=report.html --self-contained-html -v
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
 
       # 6. Save your HTML report so you can download it
       - name: Upload Test Report
