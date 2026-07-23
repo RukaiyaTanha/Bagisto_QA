@@ -1,0 +1,816 @@
+2026-07-21 20:02:32,334 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:03:28,209 - INFO - Entering email: admin@example.com
+2026-07-21 20:03:38,878 - ERROR - TEST FAILED: test_admin_login_success - Screenshot saved: screenshots/test_admin_login_success_20260721_200338.png
+2026-07-21 20:03:42,040 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:03:56,943 - INFO - Entering email: admin@example.com
+2026-07-21 20:03:57,225 - INFO - Entering password: ****
+2026-07-21 20:03:57,290 - INFO - Clicking Sign In button
+2026-07-21 20:12:54,200 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:13:02,988 - INFO - Entering email: admin@example.com
+2026-07-21 20:13:03,101 - INFO - Entering password: ****
+2026-07-21 20:13:03,140 - INFO - Clicking Sign In button
+2026-07-21 20:13:16,686 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:13:30,840 - INFO - Clicking Create Product button
+2026-07-21 20:13:30,939 - INFO - Selecting Product Type: simple
+2026-07-21 20:13:31,526 - INFO - Selecting Attribute Family: 1
+2026-07-21 20:13:31,592 - INFO - Entering SKU: simple-test-1784643210
+2026-07-21 20:13:31,687 - INFO - Clicking Save Product button
+2026-07-21 20:13:52,901 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:13:55,405 - INFO - Entering email: admin@example.com
+2026-07-21 20:13:55,486 - INFO - Entering password: ****
+2026-07-21 20:13:55,540 - INFO - Clicking Sign In button
+2026-07-21 20:13:55,590 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:14:01,575 - INFO - Clicking Create Product button
+2026-07-21 20:14:12,192 - ERROR - TEST FAILED: test_create_product_data_driven[row1] - Screenshot saved: screenshots/test_create_product_data_driven_row1__20260721_201412.png
+2026-07-21 20:14:15,065 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:14:17,401 - INFO - Entering email: admin@example.com
+2026-07-21 20:14:17,487 - INFO - Entering password: ****
+2026-07-21 20:14:17,527 - INFO - Clicking Sign In button
+2026-07-21 20:14:17,570 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:14:24,288 - INFO - Clicking Create Product button
+2026-07-21 20:14:34,648 - ERROR - TEST FAILED: test_create_product_data_driven[row2] - Screenshot saved: screenshots/test_create_product_data_driven_row2__20260721_201434.png
+2026-07-21 20:24:22,515 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:24:25,040 - INFO - Entering email: admin@example.com
+2026-07-21 20:24:25,124 - INFO - Entering password: ****
+2026-07-21 20:24:25,162 - INFO - Clicking Sign In button
+2026-07-21 20:24:25,212 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:24:30,825 - INFO - Clicking Create Product button
+2026-07-21 20:24:51,540 - ERROR - TEST FAILED: test_create_product_data_driven[row0] - Screenshot saved: screenshots/test_create_product_data_driven_row0__20260721_202451.png
+2026-07-21 20:24:54,435 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:24:56,691 - INFO - Entering email: admin@example.com
+2026-07-21 20:24:56,767 - INFO - Entering password: ****
+2026-07-21 20:24:56,807 - INFO - Clicking Sign In button
+2026-07-21 20:24:56,854 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:25:02,015 - INFO - Clicking Create Product button
+2026-07-21 20:25:22,367 - ERROR - TEST FAILED: test_create_product_data_driven[row1] - Screenshot saved: screenshots/test_create_product_data_driven_row1__20260721_202522.png
+2026-07-21 20:25:25,251 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:25:27,553 - INFO - Entering email: admin@example.com
+2026-07-21 20:25:27,632 - INFO - Entering password: ****
+2026-07-21 20:25:27,687 - INFO - Clicking Sign In button
+2026-07-21 20:25:32,607 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:25:39,696 - INFO - Clicking Create Product button
+2026-07-21 20:25:39,824 - INFO - Selecting Product Type: booking
+2026-07-21 20:25:40,405 - INFO - Selecting Attribute Family: 9
+2026-07-21 20:25:40,461 - INFO - Entering SKU: booking-test-1784643939
+2026-07-21 20:25:40,567 - INFO - Clicking Save Product button
+2026-07-21 20:36:56,130 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:37:02,597 - INFO - Entering email: admin@example.com
+2026-07-21 20:37:02,702 - INFO - Entering password: ****
+2026-07-21 20:37:02,761 - INFO - Clicking Sign In button
+2026-07-21 20:37:07,554 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:37:12,883 - INFO - Clicking Create Product button
+2026-07-21 20:37:13,024 - INFO - Selecting Product Type: simple
+2026-07-21 20:37:13,623 - INFO - Selecting Attribute Family: 1
+2026-07-21 20:37:13,678 - INFO - Entering SKU: simple-test-1784644632
+2026-07-21 20:37:13,772 - INFO - Clicking Save Product button
+2026-07-21 20:37:23,868 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:37:26,509 - INFO - Entering email: admin@example.com
+2026-07-21 20:37:26,587 - INFO - Entering password: ****
+2026-07-21 20:37:26,627 - INFO - Clicking Sign In button
+2026-07-21 20:37:31,912 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:37:37,204 - INFO - Clicking Create Product button
+2026-07-21 20:37:37,342 - INFO - Selecting Product Type: virtual
+2026-07-21 20:37:37,924 - INFO - Selecting Attribute Family: 1
+2026-07-21 20:37:37,974 - INFO - Entering SKU: virtual-test-1784644657
+2026-07-21 20:37:38,057 - INFO - Clicking Save Product button
+2026-07-21 20:37:45,617 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 20:37:48,010 - INFO - Entering email: admin@example.com
+2026-07-21 20:37:48,091 - INFO - Entering password: ****
+2026-07-21 20:37:48,130 - INFO - Clicking Sign In button
+2026-07-21 20:37:55,416 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 20:38:02,153 - INFO - Clicking Create Product button
+2026-07-21 20:38:02,262 - INFO - Selecting Product Type: booking
+2026-07-21 20:38:02,871 - INFO - Selecting Attribute Family: 9
+2026-07-21 20:38:02,925 - INFO - Entering SKU: booking-test-1784644682
+2026-07-21 20:38:03,005 - INFO - Clicking Save Product button
+2026-07-21 22:16:11,849 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 22:16:24,364 - INFO - Entering email: admin@example.com
+2026-07-21 22:16:24,543 - INFO - Entering password: ****
+2026-07-21 22:16:24,590 - INFO - Clicking Sign In button
+2026-07-21 22:16:45,302 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 22:16:56,631 - INFO - Searching product: simple-test
+2026-07-21 22:17:07,293 - ERROR - TEST FAILED: test_search_product - Screenshot saved: screenshots/test_search_product_20260721_221707.png
+2026-07-21 22:21:25,707 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 22:21:33,023 - INFO - Entering email: admin@example.com
+2026-07-21 22:21:33,150 - INFO - Entering password: ****
+2026-07-21 22:21:33,209 - INFO - Clicking Sign In button
+2026-07-21 22:21:44,670 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 22:21:54,225 - INFO - Searching product: simple-test
+2026-07-21 22:21:57,322 - ERROR - TEST FAILED: test_search_product - Screenshot saved: screenshots/test_search_product_20260721_222157.png
+2026-07-21 22:29:13,407 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 22:29:17,128 - INFO - Entering email: admin@example.com
+2026-07-21 22:29:17,222 - INFO - Entering password: ****
+2026-07-21 22:29:17,264 - INFO - Clicking Sign In button
+2026-07-21 22:29:23,936 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 22:29:32,244 - INFO - Searching product: booking-test-1784643939
+2026-07-21 22:29:35,258 - ERROR - TEST FAILED: test_search_product - Screenshot saved: screenshots/test_search_product_20260721_222935.png
+2026-07-21 23:03:20,577 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:03:24,641 - INFO - Entering email: admin@example.com
+2026-07-21 23:03:24,898 - INFO - Entering password: ****
+2026-07-21 23:03:24,951 - INFO - Clicking Sign In button
+2026-07-21 23:03:32,531 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:03:41,680 - INFO - Searching product: shirt
+2026-07-21 23:03:45,109 - ERROR - TEST FAILED: test_search_product - Screenshot saved: screenshots/test_search_product_20260721_230344.png
+2026-07-21 23:11:24,611 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:11:27,732 - INFO - Entering email: admin@example.com
+2026-07-21 23:11:27,874 - INFO - Entering password: ****
+2026-07-21 23:11:27,960 - INFO - Clicking Sign In button
+2026-07-21 23:11:32,686 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:11:39,905 - INFO - Searching product: shirt
+2026-07-21 23:12:52,593 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:12:55,095 - INFO - Entering email: admin@example.com
+2026-07-21 23:12:55,183 - INFO - Entering password: ****
+2026-07-21 23:12:55,230 - INFO - Clicking Sign In button
+2026-07-21 23:13:02,050 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:13:08,795 - INFO - Searching product: shirt
+2026-07-21 23:13:41,529 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:13:44,403 - INFO - Entering email: admin@example.com
+2026-07-21 23:13:44,492 - INFO - Entering password: ****
+2026-07-21 23:13:44,534 - INFO - Clicking Sign In button
+2026-07-21 23:13:49,835 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:13:56,303 - INFO - Searching product: shirt
+2026-07-21 23:14:36,527 - INFO - Logging out
+2026-07-21 23:14:36,666 - ERROR - TEST FAILED: test_logout - Screenshot saved: screenshots/test_logout_20260721_231436.png
+2026-07-21 23:22:10,962 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:22:13,665 - INFO - Entering email: admin@example.com
+2026-07-21 23:22:13,749 - INFO - Entering password: ****
+2026-07-21 23:22:13,791 - INFO - Clicking Sign In button
+2026-07-21 23:22:19,109 - INFO - Logging out
+2026-07-21 23:22:29,778 - ERROR - TEST FAILED: test_logout - Screenshot saved: screenshots/test_logout_20260721_232229.png
+2026-07-21 23:26:49,208 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:26:51,957 - INFO - Entering email: admin@example.com
+2026-07-21 23:26:52,049 - INFO - Entering password: ****
+2026-07-21 23:26:52,089 - INFO - Clicking Sign In button
+2026-07-21 23:26:57,413 - INFO - Opening profile menu
+2026-07-21 23:26:57,517 - INFO - Clicking logout button
+2026-07-21 23:36:40,157 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:36:42,812 - INFO - Entering email: admin@example.com
+2026-07-21 23:36:42,907 - INFO - Entering password: ****
+2026-07-21 23:36:42,962 - INFO - Clicking Sign In button
+2026-07-21 23:36:48,080 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:36:55,448 - INFO - Opening edit page for product: shirt
+2026-07-21 23:37:05,984 - ERROR - TEST FAILED: test_edit_product - Screenshot saved: screenshots/test_edit_product_20260721_233705.png
+2026-07-21 23:37:53,924 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-21 23:37:56,446 - INFO - Entering email: admin@example.com
+2026-07-21 23:37:56,529 - INFO - Entering password: ****
+2026-07-21 23:37:56,570 - INFO - Clicking Sign In button
+2026-07-21 23:38:01,728 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-21 23:38:08,591 - INFO - Opening edit page for product: booking-test-1784643939
+2026-07-21 23:38:19,095 - ERROR - TEST FAILED: test_edit_product - Screenshot saved: screenshots/test_edit_product_20260721_233819.png
+2026-07-22 00:06:17,193 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 00:06:19,903 - INFO - Entering email: admin@example.com
+2026-07-22 00:06:20,003 - INFO - Entering password: ****
+2026-07-22 00:06:20,046 - INFO - Clicking Sign In button
+2026-07-22 00:06:25,987 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 00:06:33,917 - INFO - Opening edit page for product ID: 53
+2026-07-22 00:06:40,085 - INFO - Updating product name: Azure Comfort Updated Test Product
+2026-07-22 00:06:40,398 - INFO - Saving product changes
+2026-07-22 15:00:24,284 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:04:35,183 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:04:42,737 - INFO - Entering email: admin@example.com
+2026-07-22 15:04:42,939 - INFO - Entering password: ****
+2026-07-22 15:04:42,983 - INFO - Clicking Sign In button
+2026-07-22 15:04:48,551 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:04:59,760 - ERROR - TEST FAILED: test_delete_currency_popup_disagree - Screenshot saved: screenshots/test_delete_currency_popup_disagree_20260722_150459.png
+2026-07-22 15:06:42,265 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:06:44,923 - INFO - Entering email: admin@example.com
+2026-07-22 15:06:45,037 - INFO - Entering password: ****
+2026-07-22 15:06:45,077 - INFO - Clicking Sign In button
+2026-07-22 15:06:50,788 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:07:00,255 - INFO - Clicking delete icon on currency row
+2026-07-22 15:07:00,333 - INFO - Clicking Disagree on confirmation popup
+2026-07-22 15:10:31,065 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:10:33,867 - INFO - Entering email: admin@example.com
+2026-07-22 15:10:33,960 - INFO - Entering password: ****
+2026-07-22 15:10:34,005 - INFO - Clicking Sign In button
+2026-07-22 15:10:39,426 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:10:49,716 - INFO - Clicking delete icon on currency row
+2026-07-22 15:10:49,770 - INFO - Clicking Agree on confirmation popup
+2026-07-22 15:11:00,808 - ERROR - TEST FAILED: test_delete_and_recreate_currency - Screenshot saved: screenshots/test_delete_and_recreate_currency_20260722_151100.png
+2026-07-22 15:13:20,861 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:13:23,525 - INFO - Entering email: admin@example.com
+2026-07-22 15:13:23,611 - INFO - Entering password: ****
+2026-07-22 15:13:23,663 - INFO - Clicking Sign In button
+2026-07-22 15:13:29,884 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:13:39,519 - INFO - Clicking delete icon on currency row
+2026-07-22 15:13:39,579 - INFO - Clicking Agree on confirmation popup
+2026-07-22 15:14:06,550 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:14:09,580 - INFO - Entering email: admin@example.com
+2026-07-22 15:14:09,689 - INFO - Entering password: ****
+2026-07-22 15:14:09,731 - INFO - Clicking Sign In button
+2026-07-22 15:14:15,448 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:14:23,735 - INFO - Creating currency: Euro (EUR)
+2026-07-22 15:14:23,972 - ERROR - TEST FAILED: test_delete_and_recreate_currency - Screenshot saved: screenshots/test_delete_and_recreate_currency_20260722_151423.png
+2026-07-22 15:14:26,830 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:14:29,481 - INFO - Entering email: admin@example.com
+2026-07-22 15:14:29,561 - INFO - Entering password: ****
+2026-07-22 15:14:29,604 - INFO - Clicking Sign In button
+2026-07-22 15:14:34,895 - INFO - Opening Currencies page: http://127.0.0.1:8000/admin/settings/currencies
+2026-07-22 15:14:44,845 - INFO - Clicking delete icon on currency row
+2026-07-22 15:14:44,903 - INFO - Clicking Agree on confirmation popup
+2026-07-22 15:18:14,492 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:18:17,080 - INFO - Entering email: admin@example.com
+2026-07-22 15:18:17,157 - INFO - Entering password: ****
+2026-07-22 15:18:17,199 - INFO - Clicking Sign In button
+2026-07-22 15:18:22,717 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:18:30,718 - INFO - Clicking Create Product button
+2026-07-22 15:18:30,838 - INFO - Selecting Product Type: booking
+2026-07-22 15:18:31,447 - INFO - Selecting Attribute Family: 9
+2026-07-22 15:18:31,497 - INFO - Entering SKU: booking-test-1784711910
+2026-07-22 15:18:31,579 - INFO - Clicking Save Product button
+2026-07-22 15:20:16,893 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:20:19,768 - INFO - Entering email: admin@example.com
+2026-07-22 15:20:19,858 - INFO - Entering password: ****
+2026-07-22 15:20:19,899 - INFO - Clicking Sign In button
+2026-07-22 15:20:25,495 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:20:32,782 - INFO - Clicking Create Product button
+2026-07-22 15:20:32,903 - INFO - Selecting Product Type: simple
+2026-07-22 15:20:33,488 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:20:33,548 - INFO - Clicking Save Product button
+2026-07-22 15:21:43,912 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:21:46,321 - INFO - Entering email: admin@example.com
+2026-07-22 15:21:46,401 - INFO - Entering password: ****
+2026-07-22 15:21:46,445 - INFO - Clicking Sign In button
+2026-07-22 15:21:52,014 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:21:59,619 - INFO - Clicking Create Product button
+2026-07-22 15:26:38,830 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:26:42,520 - INFO - Entering email: admin@example.com
+2026-07-22 15:26:42,615 - INFO - Entering password: ****
+2026-07-22 15:26:42,655 - INFO - Clicking Sign In button
+2026-07-22 15:26:48,196 - INFO - Opening new tab with URL: http://127.0.0.1:8000
+2026-07-22 15:27:39,752 - INFO - Switched to new window, title: Demo store
+2026-07-22 15:27:39,759 - INFO - Closing current window
+2026-07-22 15:27:39,794 - INFO - Switched back to main window, title: Dashboard
+2026-07-22 15:30:57,741 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:31:00,740 - INFO - Entering email: admin@example.com
+2026-07-22 15:31:00,849 - INFO - Entering password: ****
+2026-07-22 15:31:00,892 - INFO - Clicking Sign In button
+2026-07-22 15:31:06,499 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:31:14,226 - INFO - Clicking Create Product button
+2026-07-22 15:31:14,365 - INFO - Selecting Product Type: simple
+2026-07-22 15:31:14,970 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:31:15,030 - INFO - Entering SKU: frame-test-1784712674
+2026-07-22 15:31:15,120 - INFO - Clicking Save Product button
+2026-07-22 15:31:17,194 - INFO - Entering short description text inside iframe: This description was typed via Selenium inside an iframe.
+2026-07-22 15:31:24,326 - INFO - Saving product changes
+2026-07-22 15:31:25,649 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_153125.png
+2026-07-22 15:37:25,042 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:37:27,741 - INFO - Entering email: admin@example.com
+2026-07-22 15:37:27,832 - INFO - Entering password: ****
+2026-07-22 15:37:27,886 - INFO - Clicking Sign In button
+2026-07-22 15:37:33,378 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:37:40,491 - INFO - Clicking Create Product button
+2026-07-22 15:37:40,615 - INFO - Selecting Product Type: simple
+2026-07-22 15:37:41,229 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:37:41,286 - INFO - Entering SKU: frame-test-1784713060
+2026-07-22 15:37:41,371 - INFO - Clicking Save Product button
+2026-07-22 15:37:43,441 - INFO - Entering short description text inside iframe: This description was typed via Selenium inside an iframe.
+2026-07-22 15:37:50,534 - INFO - Saving product changes
+2026-07-22 15:37:51,613 - INFO - Normal click intercepted, falling back to JS click
+2026-07-22 15:37:53,643 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/products
+2026-07-22 15:38:25,628 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_153825.png
+2026-07-22 15:44:58,242 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:45:04,918 - INFO - Entering email: admin@example.com
+2026-07-22 15:45:05,005 - INFO - Entering password: ****
+2026-07-22 15:45:05,046 - INFO - Clicking Sign In button
+2026-07-22 15:45:13,006 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:45:21,486 - INFO - Clicking Create Product button
+2026-07-22 15:45:21,678 - INFO - Selecting Product Type: simple
+2026-07-22 15:45:21,798 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:45:21,860 - INFO - Entering SKU: frame-test-1784713521
+2026-07-22 15:45:21,975 - INFO - Clicking Save Product button
+2026-07-22 15:45:24,052 - INFO - Updating product name: Frame Test Product frame-test-1784713521
+2026-07-22 15:45:31,159 - INFO - Entering URL key: frame-test-1784713521
+2026-07-22 15:45:31,313 - INFO - Entering price: 99.99
+2026-07-22 15:45:31,397 - INFO - Entering short description text inside iframe: This description was typed via Selenium inside an iframe.
+2026-07-22 15:45:32,240 - INFO - Saving product changes
+2026-07-22 15:45:33,291 - INFO - Normal click intercepted, falling back to JS click
+2026-07-22 15:45:35,322 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/products
+2026-07-22 15:45:50,781 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_154550.png
+2026-07-22 15:52:20,024 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:52:28,821 - INFO - Entering email: admin@example.com
+2026-07-22 15:52:28,936 - INFO - Entering password: ****
+2026-07-22 15:52:28,979 - INFO - Clicking Sign In button
+2026-07-22 15:52:37,895 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:52:46,659 - INFO - Clicking Create Product button
+2026-07-22 15:52:46,783 - INFO - Selecting Product Type: simple
+2026-07-22 15:52:47,406 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:52:47,471 - INFO - Entering SKU: frame-test-1784713966
+2026-07-22 15:52:47,565 - INFO - Clicking Save Product button
+2026-07-22 15:52:57,246 - INFO - Updating product name: Frame Test Product frame-test-1784713966
+2026-07-22 15:52:57,534 - INFO - Entering URL key: frame-test-1784713966
+2026-07-22 15:52:57,690 - INFO - Entering price: 99.99
+2026-07-22 15:52:57,790 - INFO - Entering short description text inside iframe: This description was typed via Selenium inside an iframe.
+2026-07-22 15:52:58,662 - INFO - Saving product changes
+2026-07-22 15:52:59,771 - INFO - Normal click intercepted, falling back to JS click
+2026-07-22 15:53:01,793 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/168
+2026-07-22 15:53:05,259 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_155305.png
+2026-07-22 15:59:02,850 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 15:59:12,049 - INFO - Entering email: admin@example.com
+2026-07-22 15:59:12,172 - INFO - Entering password: ****
+2026-07-22 15:59:12,213 - INFO - Clicking Sign In button
+2026-07-22 15:59:19,164 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 15:59:27,648 - INFO - Clicking Create Product button
+2026-07-22 15:59:27,778 - INFO - Selecting Product Type: simple
+2026-07-22 15:59:28,383 - INFO - Selecting Attribute Family: 1
+2026-07-22 15:59:28,447 - INFO - Entering SKU: frame-test-1784714367
+2026-07-22 15:59:28,531 - INFO - Clicking Save Product button
+2026-07-22 15:59:38,301 - INFO - Updating product name: Frame Test Product frame-test-1784714367
+2026-07-22 15:59:38,652 - INFO - Entering URL key: frame-test-1784714367
+2026-07-22 15:59:38,790 - INFO - Entering price: 99.99
+2026-07-22 15:59:38,884 - INFO - Entering weight: 1.5
+2026-07-22 15:59:38,962 - INFO - Entering short description text inside iframe: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 15:59:40,373 - INFO - Entering description text inside iframe: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-07-22 15:59:40,731 - INFO - Saving product changes
+2026-07-22 15:59:41,854 - INFO - Normal click intercepted, falling back to JS click
+2026-07-22 15:59:43,879 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/169
+2026-07-22 15:59:46,955 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_155946.png
+2026-07-22 16:07:05,074 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:07:07,999 - INFO - Entering email: admin@example.com
+2026-07-22 16:07:08,085 - INFO - Entering password: ****
+2026-07-22 16:07:08,128 - INFO - Clicking Sign In button
+2026-07-22 16:07:13,875 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 16:07:20,786 - INFO - Clicking Create Product button
+2026-07-22 16:07:20,901 - INFO - Selecting Product Type: simple
+2026-07-22 16:07:21,500 - INFO - Selecting Attribute Family: 1
+2026-07-22 16:07:21,560 - INFO - Entering SKU: frame-test-1784714840
+2026-07-22 16:07:21,671 - INFO - Clicking Save Product button
+2026-07-22 16:07:30,616 - INFO - Updating product name: Frame Test Product frame-test-1784714840
+2026-07-22 16:07:30,865 - INFO - Entering URL key: frame-test-1784714840
+2026-07-22 16:07:31,011 - INFO - Entering price: 99.99
+2026-07-22 16:07:31,096 - INFO - Entering weight: 1.5
+2026-07-22 16:07:31,181 - INFO - Entering short description text inside iframe: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 16:07:32,029 - INFO - Entering description text inside iframe: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-07-22 16:07:32,374 - INFO - Saving product changes
+2026-07-22 16:07:35,116 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/170
+2026-07-22 16:07:38,508 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_160738.png
+2026-07-22 16:17:09,952 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:17:16,793 - INFO - Entering email: admin@example.com
+2026-07-22 16:17:16,926 - INFO - Entering password: ****
+2026-07-22 16:17:16,976 - INFO - Clicking Sign In button
+2026-07-22 16:17:23,563 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:17:33,223 - INFO - Entering category name: Test Category LKYML
+2026-07-22 16:17:33,436 - INFO - Entering position: 1
+2026-07-22 16:17:33,506 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:17:33,542 - INFO - Checking filterable attribute: Price
+2026-07-22 16:17:33,603 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 16:17:34,775 - INFO - Entering slug: test-category-tchoi
+2026-07-22 16:17:34,926 - INFO - Clicking Save Category button
+2026-07-22 16:17:37,753 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_161737.png
+2026-07-22 16:21:13,389 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:21:15,857 - INFO - Entering email: admin@example.com
+2026-07-22 16:21:15,945 - INFO - Entering password: ****
+2026-07-22 16:21:15,982 - INFO - Clicking Sign In button
+2026-07-22 16:21:20,849 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 16:21:27,809 - INFO - Clicking Create Product button
+2026-07-22 16:21:27,941 - INFO - Selecting Product Type: simple
+2026-07-22 16:21:28,544 - INFO - Selecting Attribute Family: 1
+2026-07-22 16:21:28,605 - INFO - Entering SKU: frame-test-1784715687
+2026-07-22 16:21:28,681 - INFO - Clicking Save Product button
+2026-07-22 16:21:36,413 - INFO - Updating product name: Frame Test Product frame-test-1784715687
+2026-07-22 16:21:36,670 - INFO - Entering URL key: frame-test-1784715687
+2026-07-22 16:21:36,805 - INFO - Entering price: 99.99
+2026-07-22 16:21:36,899 - INFO - Entering weight: 1.5
+2026-07-22 16:21:37,208 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_162137.png
+2026-07-22 16:22:00,122 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:22:02,630 - INFO - Entering email: admin@example.com
+2026-07-22 16:22:02,714 - INFO - Entering password: ****
+2026-07-22 16:22:02,756 - INFO - Clicking Sign In button
+2026-07-22 16:22:09,151 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:22:17,903 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_162217.png
+2026-07-22 16:36:26,901 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:37:19,614 - INFO - Entering email: admin@example.com
+2026-07-22 16:39:52,855 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:40:04,203 - INFO - Entering email: admin@example.com
+2026-07-22 16:40:04,345 - INFO - Entering password: ****
+2026-07-22 16:40:04,386 - INFO - Clicking Sign In button
+2026-07-22 16:40:18,406 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:40:35,536 - INFO - Entering category name: Test Category EyCHt
+2026-07-22 16:40:35,725 - INFO - Entering position: 1
+2026-07-22 16:40:35,794 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:40:35,828 - INFO - Checking filterable attribute: Price
+2026-07-22 16:40:35,881 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 16:40:37,065 - INFO - Entering slug: test-category-dxrvn
+2026-07-22 16:40:37,202 - INFO - Clicking Save Category button
+2026-07-22 16:40:40,073 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_164039.png
+2026-07-22 16:42:26,121 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:42:28,680 - INFO - Entering email: admin@example.com
+2026-07-22 16:42:28,761 - INFO - Entering password: ****
+2026-07-22 16:42:28,805 - INFO - Clicking Sign In button
+2026-07-22 16:42:33,826 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:42:41,686 - INFO - Entering category name: Test Category rdFjU
+2026-07-22 16:42:41,885 - INFO - Entering position: 1
+2026-07-22 16:42:42,004 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:42:42,057 - INFO - Checking filterable attribute: Price
+2026-07-22 16:42:42,148 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 16:42:43,849 - INFO - Entering slug: test-category-gxhts
+2026-07-22 16:42:44,006 - INFO - Clicking Save Category button
+2026-07-22 16:42:46,973 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_164246.png
+2026-07-22 16:46:57,396 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:47:04,697 - INFO - Entering email: admin@example.com
+2026-07-22 16:47:04,867 - INFO - Entering password: ****
+2026-07-22 16:47:04,906 - INFO - Clicking Sign In button
+2026-07-22 16:47:13,111 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:47:24,257 - INFO - Entering category name: Test Category rfbnf
+2026-07-22 16:47:24,493 - INFO - Entering position: 1
+2026-07-22 16:47:24,558 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:47:24,674 - INFO - Checking filterable attribute: Price
+2026-07-22 16:47:25,120 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_164724.png
+2026-07-22 16:49:11,706 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:49:14,139 - INFO - Entering email: admin@example.com
+2026-07-22 16:49:14,234 - INFO - Entering password: ****
+2026-07-22 16:49:14,274 - INFO - Clicking Sign In button
+2026-07-22 16:49:19,725 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:49:28,222 - INFO - Entering category name: Test Category HipoG
+2026-07-22 16:49:28,536 - INFO - Entering position: 1
+2026-07-22 16:49:28,688 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:49:28,721 - INFO - Checking filterable attribute: Price
+2026-07-22 16:49:28,785 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 16:49:28,806 - INFO - Entering slug: test-category-xdxnz
+2026-07-22 16:49:28,963 - INFO - Clicking Save Category button
+2026-07-22 16:49:31,809 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_164931.png
+2026-07-22 16:58:19,965 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:58:22,763 - INFO - Entering email: admin@example.com
+2026-07-22 16:58:22,856 - INFO - Entering password: ****
+2026-07-22 16:58:22,904 - INFO - Clicking Sign In button
+2026-07-22 16:58:28,330 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:58:36,677 - INFO - Entering category name: Test Category fbjxo
+2026-07-22 16:58:36,851 - INFO - Entering position: 1
+2026-07-22 16:58:36,953 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:58:36,991 - INFO - Checking filterable attribute: Price
+2026-07-22 16:58:37,282 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_165837.png
+2026-07-22 16:59:36,265 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 16:59:38,905 - INFO - Entering email: admin@example.com
+2026-07-22 16:59:38,999 - INFO - Entering password: ****
+2026-07-22 16:59:39,043 - INFO - Clicking Sign In button
+2026-07-22 16:59:45,125 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 16:59:53,856 - INFO - Entering category name: Test Category Hjanw
+2026-07-22 16:59:54,125 - INFO - Entering position: 1
+2026-07-22 16:59:54,237 - INFO - Selecting display mode: products_and_description
+2026-07-22 16:59:54,299 - INFO - Checking filterable attribute: Price
+2026-07-22 16:59:54,358 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 16:59:55,736 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_165955.png
+2026-07-22 17:00:58,802 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:01:01,650 - INFO - Entering email: admin@example.com
+2026-07-22 17:01:01,729 - INFO - Entering password: ****
+2026-07-22 17:01:01,776 - INFO - Clicking Sign In button
+2026-07-22 17:01:07,003 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 17:01:15,674 - INFO - Entering category name: Test Category vRuaf
+2026-07-22 17:01:15,874 - INFO - Entering position: 1
+2026-07-22 17:01:16,010 - INFO - Selecting display mode: products_and_description
+2026-07-22 17:01:16,045 - INFO - Checking filterable attribute: Price
+2026-07-22 17:01:16,124 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 17:01:17,933 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_170117.png
+2026-07-22 17:05:54,803 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:05:59,955 - INFO - Entering email: admin@example.com
+2026-07-22 17:06:00,088 - INFO - Entering password: ****
+2026-07-22 17:06:00,139 - INFO - Clicking Sign In button
+2026-07-22 17:06:05,004 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 17:06:12,429 - INFO - Entering category name: Test Category fiLqm
+2026-07-22 17:06:12,648 - INFO - Entering position: 1
+2026-07-22 17:06:12,824 - INFO - Selecting display mode: products_and_description
+2026-07-22 17:06:12,890 - INFO - Checking filterable attribute: Price
+2026-07-22 17:06:12,970 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 17:06:16,171 - ERROR - TEST FAILED: test_create_category - Screenshot saved: screenshots/test_create_category_20260722_170616.png
+2026-07-22 17:09:22,063 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:09:24,540 - INFO - Entering email: admin@example.com
+2026-07-22 17:09:24,622 - INFO - Entering password: ****
+2026-07-22 17:09:24,665 - INFO - Clicking Sign In button
+2026-07-22 17:09:29,775 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 17:09:37,996 - INFO - Entering category name: Test Category HDYYu
+2026-07-22 17:09:38,219 - INFO - Entering position: 1
+2026-07-22 17:09:38,371 - INFO - Selecting display mode: products_and_description
+2026-07-22 17:09:38,400 - INFO - Checking filterable attribute: Price
+2026-07-22 17:09:38,526 - INFO - Entering category description: This is a test category created via Selenium.
+2026-07-22 17:09:40,461 - INFO - Entering slug: test-category-tzvma
+2026-07-22 17:09:40,629 - INFO - Clicking Save Category button
+2026-07-22 17:14:37,217 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:14:39,592 - INFO - Entering email: admin@example.com
+2026-07-22 17:14:39,675 - INFO - Entering password: ****
+2026-07-22 17:14:39,716 - INFO - Clicking Sign In button
+2026-07-22 17:14:44,942 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 17:14:53,697 - INFO - Clicking Create Product button
+2026-07-22 17:14:53,809 - INFO - Selecting Product Type: simple
+2026-07-22 17:14:54,400 - INFO - Selecting Attribute Family: 1
+2026-07-22 17:14:54,449 - INFO - Entering SKU: frame-test-1784718893
+2026-07-22 17:14:54,530 - INFO - Clicking Save Product button
+2026-07-22 17:15:08,974 - INFO - Updating product name: Frame Test Product frame-test-1784718893
+2026-07-22 17:15:09,264 - INFO - Entering URL key: frame-test-1784718893
+2026-07-22 17:15:09,429 - INFO - Entering price: 99.99
+2026-07-22 17:15:09,565 - INFO - Entering weight: 1.5
+2026-07-22 17:15:09,945 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_171509.png
+2026-07-22 17:16:57,229 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:16:59,910 - INFO - Entering email: admin@example.com
+2026-07-22 17:16:59,989 - INFO - Entering password: ****
+2026-07-22 17:17:00,038 - INFO - Clicking Sign In button
+2026-07-22 17:17:05,076 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 17:17:12,052 - INFO - Clicking Create Product button
+2026-07-22 17:17:12,194 - INFO - Selecting Product Type: simple
+2026-07-22 17:17:12,788 - INFO - Selecting Attribute Family: 1
+2026-07-22 17:17:12,838 - INFO - Entering SKU: frame-test-1784719032
+2026-07-22 17:17:12,938 - INFO - Clicking Save Product button
+2026-07-22 17:17:20,671 - INFO - Updating product name: Frame Test Product frame-test-1784719032
+2026-07-22 17:17:20,942 - INFO - Entering URL key: frame-test-1784719032
+2026-07-22 17:17:21,129 - INFO - Entering price: 99.99
+2026-07-22 17:17:21,244 - INFO - Entering weight: 1.5
+2026-07-22 17:17:21,372 - INFO - Entering short description text inside iframe: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 17:17:22,230 - INFO - Entering description text inside iframe: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-07-22 17:17:22,600 - INFO - Saving product changes
+2026-07-22 17:17:25,271 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/173
+2026-07-22 17:17:28,359 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_171728.png
+2026-07-22 17:26:28,716 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:26:35,612 - INFO - Entering email: admin@example.com
+2026-07-22 17:26:35,737 - INFO - Entering password: ****
+2026-07-22 17:26:35,787 - INFO - Clicking Sign In button
+2026-07-22 17:26:41,800 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 17:26:49,362 - INFO - Clicking Create Product button
+2026-07-22 17:26:49,476 - INFO - Selecting Product Type: simple
+2026-07-22 17:26:49,587 - INFO - Selecting Attribute Family: 1
+2026-07-22 17:26:49,684 - INFO - Entering SKU: frame-test-1784719609
+2026-07-22 17:26:49,768 - INFO - Clicking Save Product button
+2026-07-22 17:26:58,742 - INFO - Updating product name: Frame Test Product frame-test-1784719609
+2026-07-22 17:26:59,057 - INFO - Entering URL key: frame-test-1784719609
+2026-07-22 17:26:59,270 - INFO - Entering price: 99.99
+2026-07-22 17:26:59,365 - INFO - Entering weight: 1.5
+2026-07-22 17:26:59,458 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 17:26:59,845 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_172659.png
+2026-07-22 17:31:06,616 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:31:09,134 - INFO - Entering email: admin@example.com
+2026-07-22 17:31:09,215 - INFO - Entering password: ****
+2026-07-22 17:31:09,255 - INFO - Clicking Sign In button
+2026-07-22 17:31:14,201 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 17:31:21,417 - INFO - Clicking Create Product button
+2026-07-22 17:31:21,519 - INFO - Selecting Product Type: simple
+2026-07-22 17:31:22,101 - INFO - Selecting Attribute Family: 1
+2026-07-22 17:31:22,149 - INFO - Entering SKU: frame-test-1784719881
+2026-07-22 17:31:22,225 - INFO - Clicking Save Product button
+2026-07-22 17:31:29,683 - INFO - Updating product name: Frame Test Product frame-test-1784719881
+2026-07-22 17:31:29,949 - INFO - Entering URL key: frame-test-1784719881
+2026-07-22 17:31:30,094 - INFO - Entering price: 99.99
+2026-07-22 17:31:30,179 - INFO - Entering weight: 1.5
+2026-07-22 17:31:30,255 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 17:31:31,331 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-07-22 17:31:31,367 - INFO - Saving product changes
+2026-07-22 17:31:34,038 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/176
+2026-07-22 17:31:37,343 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_173137.png
+2026-07-22 17:36:36,297 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 17:36:38,774 - INFO - Entering email: admin@example.com
+2026-07-22 17:36:38,855 - INFO - Entering password: ****
+2026-07-22 17:36:38,906 - INFO - Clicking Sign In button
+2026-07-22 17:36:44,647 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 17:36:54,930 - INFO - Clicking Create Product button
+2026-07-22 17:36:55,048 - INFO - Selecting Product Type: simple
+2026-07-22 17:36:55,632 - INFO - Selecting Attribute Family: 1
+2026-07-22 17:36:55,690 - INFO - Entering SKU: frame-test-1784720214
+2026-07-22 17:36:55,780 - INFO - Clicking Save Product button
+2026-07-22 17:37:03,579 - INFO - Updating product name: Frame Test Product frame-test-1784720214
+2026-07-22 17:37:03,853 - INFO - Entering URL key: frame-test-1784720214
+2026-07-22 17:37:04,147 - INFO - Entering price: 99.99
+2026-07-22 17:37:04,263 - INFO - Entering weight: 1.5
+2026-07-22 17:37:04,345 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-07-22 17:37:05,364 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-07-22 17:37:06,375 - INFO - Saving product changes
+2026-07-22 17:37:09,138 - INFO - Opening product edit page: http://127.0.0.1:8000/admin/catalog/products/edit/177
+2026-07-22 17:37:12,059 - ERROR - TEST FAILED: test_description_saved_after_reload - Screenshot saved: screenshots/test_description_saved_after_reload_20260722_173711.png
+2026-07-22 18:01:14,693 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:01:24,348 - INFO - Entering email: admin@example.com
+2026-07-22 18:01:24,464 - INFO - Entering password: ****
+2026-07-22 18:01:24,504 - INFO - Clicking Sign In button
+2026-07-22 18:01:31,699 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 18:01:42,059 - INFO - Entering category name: Delete Test Category lJzFw
+2026-07-22 18:01:42,275 - INFO - Entering position: 1
+2026-07-22 18:01:42,344 - INFO - Selecting display mode: products_and_description
+2026-07-22 18:01:42,375 - INFO - Checking filterable attribute: Price
+2026-07-22 18:01:42,437 - INFO - Entering category description: This category will be deleted in this test.
+2026-07-22 18:01:46,614 - INFO - Entering slug: delete-test-voqsq
+2026-07-22 18:01:46,770 - INFO - Clicking Save Category button
+2026-07-22 18:01:52,612 - ERROR - TEST FAILED: test_create_and_delete_category - Screenshot saved: screenshots/test_create_and_delete_category_20260722_180152.png
+2026-07-22 18:04:16,809 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:04:19,362 - INFO - Entering email: admin@example.com
+2026-07-22 18:04:19,452 - INFO - Entering password: ****
+2026-07-22 18:04:19,495 - INFO - Clicking Sign In button
+2026-07-22 18:04:24,650 - INFO - Opening Create Category page: http://127.0.0.1:8000/admin/catalog/categories/create
+2026-07-22 18:04:33,322 - INFO - Entering category name: Delete Test Category ecFSn
+2026-07-22 18:04:33,564 - INFO - Entering position: 1
+2026-07-22 18:04:33,683 - INFO - Selecting display mode: products_and_description
+2026-07-22 18:04:33,735 - INFO - Checking filterable attribute: Price
+2026-07-22 18:04:33,798 - INFO - Entering category description: This category will be deleted in this test.
+2026-07-22 18:04:35,771 - INFO - Entering slug: delete-test-fhmzm
+2026-07-22 18:04:35,917 - INFO - Clicking Save Category button
+2026-07-22 18:04:41,040 - INFO - Opening Categories list page: http://127.0.0.1:8000/admin/catalog/categories
+2026-07-22 18:04:46,548 - INFO - Clicking delete icon for category: Delete Test Category ecFSn
+2026-07-22 18:04:46,604 - INFO - Clicking Agree on confirmation popup
+2026-07-22 18:42:26,224 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:42:37,949 - INFO - Entering email: admin@example.com
+2026-07-22 18:42:38,119 - INFO - Entering password: ****
+2026-07-22 18:42:38,166 - INFO - Clicking Sign In button
+2026-07-22 18:42:49,287 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 18:42:59,305 - ERROR - TEST FAILED: test_filter_products_by_active_status - Screenshot saved: screenshots/test_filter_products_by_active_status_20260722_184259.png
+2026-07-22 18:47:00,469 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:47:03,638 - INFO - Entering email: admin@example.com
+2026-07-22 18:47:03,728 - INFO - Entering password: ****
+2026-07-22 18:47:03,769 - INFO - Clicking Sign In button
+2026-07-22 18:47:11,959 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 18:47:20,573 - ERROR - TEST FAILED: test_filter_products_by_active_status - Screenshot saved: screenshots/test_filter_products_by_active_status_20260722_184720.png
+2026-07-22 18:52:16,285 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:52:20,606 - INFO - Entering email: admin@example.com
+2026-07-22 18:52:20,696 - INFO - Entering password: ****
+2026-07-22 18:52:20,737 - INFO - Clicking Sign In button
+2026-07-22 18:52:27,527 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 18:52:36,794 - INFO - Filtering products by status: active
+2026-07-22 18:52:40,158 - ERROR - TEST FAILED: test_filter_products_by_active_status - Screenshot saved: screenshots/test_filter_products_by_active_status_20260722_185240.png
+2026-07-22 18:53:44,508 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 18:53:47,355 - INFO - Entering email: admin@example.com
+2026-07-22 18:53:47,462 - INFO - Entering password: ****
+2026-07-22 18:53:47,512 - INFO - Clicking Sign In button
+2026-07-22 18:53:53,911 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 18:54:01,727 - INFO - Filtering products by status: active
+2026-07-22 18:54:17,524 - ERROR - TEST FAILED: test_filter_products_by_active_status - Screenshot saved: screenshots/test_filter_products_by_active_status_20260722_185417.png
+2026-07-22 19:09:41,652 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 19:09:52,319 - INFO - Entering email: admin@example.com
+2026-07-22 19:09:52,535 - INFO - Entering password: ****
+2026-07-22 19:09:52,578 - INFO - Clicking Sign In button
+2026-07-22 19:10:04,127 - INFO - Opening Products page: http://127.0.0.1:8000/admin/catalog/products
+2026-07-22 19:10:14,197 - INFO - Filtering products by status: active
+2026-07-22 19:38:27,040 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 19:38:33,091 - INFO - Entering email: admin@example.com
+2026-07-22 19:38:33,201 - INFO - Entering password: ****
+2026-07-22 19:38:33,249 - INFO - Clicking Sign In button
+2026-07-22 19:38:38,207 - INFO - Opening sales report page: http://127.0.0.1:8000/admin/reporting/sales
+2026-07-22 19:38:45,935 - INFO - Opening start date picker
+2026-07-22 19:38:46,090 - INFO - Selecting month 6, year 2026
+2026-07-22 19:38:46,892 - INFO - Selecting date: July 15, 2026
+2026-07-22 20:44:19,162 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 20:44:22,524 - INFO - Entering email: admin@example.com
+2026-07-22 20:44:22,634 - INFO - Entering password: ****
+2026-07-22 20:44:22,677 - INFO - Clicking Sign In button
+2026-07-22 20:44:37,729 - INFO - Opening next page
+2026-07-22 20:44:50,888 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_204450.png
+2026-07-22 20:47:28,506 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 20:47:30,898 - INFO - Entering email: admin@example.com
+2026-07-22 20:47:30,984 - INFO - Entering password: ****
+2026-07-22 20:47:31,026 - INFO - Clicking Sign In button
+2026-07-22 20:47:46,469 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_204746.png
+2026-07-22 20:50:27,426 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 20:50:30,045 - INFO - Entering email: admin@example.com
+2026-07-22 20:50:30,127 - INFO - Entering password: ****
+2026-07-22 20:50:30,166 - INFO - Clicking Sign In button
+2026-07-22 20:50:42,604 - INFO - Opening next page
+2026-07-22 20:50:55,607 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_205055.png
+2026-07-22 20:52:09,718 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 20:52:11,953 - INFO - Entering email: admin@example.com
+2026-07-22 20:52:12,032 - INFO - Entering password: ****
+2026-07-22 20:52:12,073 - INFO - Clicking Sign In button
+2026-07-22 20:52:24,259 - INFO - Opening next page
+2026-07-22 20:52:26,585 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_205226.png
+2026-07-22 20:57:10,355 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 20:57:12,763 - INFO - Entering email: admin@example.com
+2026-07-22 20:57:12,847 - INFO - Entering password: ****
+2026-07-22 20:57:12,886 - INFO - Clicking Sign In button
+2026-07-22 20:57:18,638 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_205718.png
+2026-07-22 21:06:12,124 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:06:23,160 - INFO - Entering email: admin@example.com
+2026-07-22 21:06:23,644 - INFO - Entering password: ****
+2026-07-22 21:06:23,705 - INFO - Clicking Sign In button
+2026-07-22 21:06:31,988 - INFO - Opening Categories list page: http://127.0.0.1:8000/admin/catalog/categories
+2026-07-22 21:06:51,251 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_210651.png
+2026-07-22 21:08:42,356 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:08:45,078 - INFO - Entering email: admin@example.com
+2026-07-22 21:08:45,164 - INFO - Entering password: ****
+2026-07-22 21:08:45,210 - INFO - Clicking Sign In button
+2026-07-22 21:08:54,754 - INFO - Opening Categories list page: http://127.0.0.1:8000/admin/catalog/categories
+2026-07-22 21:09:11,928 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_210911.png
+2026-07-22 21:17:32,537 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:17:35,202 - INFO - Entering email: admin@example.com
+2026-07-22 21:17:35,285 - INFO - Entering password: ****
+2026-07-22 21:17:35,326 - INFO - Clicking Sign In button
+2026-07-22 21:17:40,846 - INFO - Opening Categories list page: http://127.0.0.1:8000/admin/catalog/categories
+2026-07-22 21:17:58,362 - ERROR - TEST FAILED: test_categories_next_page - Screenshot saved: screenshots/test_categories_next_page_20260722_211758.png
+2026-07-22 21:26:01,472 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:26:03,898 - INFO - Entering email: admin@example.com
+2026-07-22 21:26:03,980 - INFO - Entering password: ****
+2026-07-22 21:26:04,028 - INFO - Clicking Sign In button
+2026-07-22 21:26:09,646 - INFO - Opening Categories list page: http://127.0.0.1:8000/admin/catalog/categories
+2026-07-22 21:26:16,829 - INFO - Opening next page
+2026-07-22 21:33:36,702 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:33:39,274 - INFO - Entering email: admin@example.com
+2026-07-22 21:33:39,358 - INFO - Entering password: ****
+2026-07-22 21:33:39,397 - INFO - Clicking Sign In button
+2026-07-22 21:33:44,797 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:33:51,379 - INFO - Clicking Export button
+2026-07-22 21:33:51,487 - INFO - Selecting export format: xlsx
+2026-07-22 21:33:52,128 - INFO - Confirming export
+2026-07-22 21:33:53,514 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_213353.png
+2026-07-22 21:36:50,917 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:36:54,035 - INFO - Entering email: admin@example.com
+2026-07-22 21:36:54,125 - INFO - Entering password: ****
+2026-07-22 21:36:54,189 - INFO - Clicking Sign In button
+2026-07-22 21:36:59,526 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:37:06,603 - INFO - Clicking Export button
+2026-07-22 21:37:06,642 - INFO - Selecting export format: xlsx
+2026-07-22 21:37:06,753 - INFO - Confirming export
+2026-07-22 21:37:15,129 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_213715.png
+2026-07-22 21:39:09,052 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:39:11,796 - INFO - Entering email: admin@example.com
+2026-07-22 21:39:11,874 - INFO - Entering password: ****
+2026-07-22 21:39:11,913 - INFO - Clicking Sign In button
+2026-07-22 21:39:17,236 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:39:24,397 - INFO - Clicking Export button
+2026-07-22 21:39:24,441 - INFO - Selecting export format: xlsx
+2026-07-22 21:39:25,046 - INFO - Confirming export
+2026-07-22 21:39:33,252 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_213933.png
+2026-07-22 21:44:39,085 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:44:41,784 - INFO - Entering email: admin@example.com
+2026-07-22 21:44:41,863 - INFO - Entering password: ****
+2026-07-22 21:44:41,904 - INFO - Clicking Sign In button
+2026-07-22 21:44:47,239 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:44:54,628 - INFO - Waiting for customer data
+2026-07-22 21:44:54,643 - INFO - Clicking Export button
+2026-07-22 21:44:54,710 - INFO - Selecting export format: xlsx
+2026-07-22 21:44:55,320 - INFO - Confirming export
+2026-07-22 21:45:03,640 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_214503.png
+2026-07-22 21:49:28,222 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:49:30,811 - INFO - Entering email: admin@example.com
+2026-07-22 21:49:30,893 - INFO - Entering password: ****
+2026-07-22 21:49:30,935 - INFO - Clicking Sign In button
+2026-07-22 21:49:37,366 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:49:44,073 - INFO - Clicking Export button
+2026-07-22 21:49:44,209 - INFO - Selecting export format: xlsx
+2026-07-22 21:49:44,463 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_214944.png
+2026-07-22 21:51:51,918 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 21:51:54,473 - INFO - Entering email: admin@example.com
+2026-07-22 21:51:54,555 - INFO - Entering password: ****
+2026-07-22 21:51:54,592 - INFO - Clicking Sign In button
+2026-07-22 21:52:00,306 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:52:07,251 - INFO - Clicking Export button
+2026-07-22 21:52:07,359 - INFO - Selecting export format: xlsx
+2026-07-22 21:52:07,957 - INFO - Selecting customer checkbox
+2026-07-22 21:52:10,035 - INFO - Confirming export
+2026-07-22 21:52:13,284 - ERROR - TEST FAILED: test_export_customers_xlsx - Screenshot saved: screenshots/test_export_customers_xlsx_20260722_215213.png
+2026-07-22 21:57:16,205 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 21:57:18,222 - INFO - Clicking Export button
+2026-07-22 21:57:28,765 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_215728.png
+2026-07-22 22:00:22,425 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:00:24,534 - INFO - Starting customer export
+2026-07-22 22:00:24,534 - INFO - Selecting customer checkbox
+2026-07-22 22:00:39,624 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:00:41,603 - INFO - Starting customer export
+2026-07-22 22:00:41,603 - INFO - Selecting customer checkbox
+2026-07-22 22:00:52,124 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_220052.png
+2026-07-22 22:02:48,758 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:02:50,808 - INFO - Starting customer export
+2026-07-22 22:02:50,808 - INFO - Selecting customer checkbox
+2026-07-22 22:03:01,286 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_220301.png
+2026-07-22 22:03:49,105 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:03:51,133 - INFO - Clicking Export button
+2026-07-22 22:04:01,711 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_220401.png
+2026-07-22 22:04:21,751 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 22:04:24,485 - INFO - Entering email: admin@example.com
+2026-07-22 22:04:24,570 - INFO - Entering password: ****
+2026-07-22 22:04:24,616 - INFO - Clicking Sign In button
+2026-07-22 22:04:30,664 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:04:37,004 - INFO - Clicking Export button
+2026-07-22 22:04:37,144 - INFO - Selecting export format: xls
+2026-07-22 22:04:37,755 - INFO - Selecting customer checkbox
+2026-07-22 22:04:38,802 - INFO - Confirming export
+2026-07-22 22:04:42,004 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_220441.png
+2026-07-22 22:05:29,466 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 22:05:32,001 - INFO - Entering email: admin@example.com
+2026-07-22 22:05:32,078 - INFO - Entering password: ****
+2026-07-22 22:05:32,119 - INFO - Clicking Sign In button
+2026-07-22 22:05:37,523 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:05:44,651 - INFO - Starting customer export
+2026-07-22 22:05:44,651 - INFO - Selecting customer checkbox
+2026-07-22 22:05:47,742 - INFO - Clicking Export button
+2026-07-22 22:05:49,771 - INFO - Selecting export format: xls
+2026-07-22 22:05:50,824 - INFO - Confirming export
+2026-07-22 22:05:59,029 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_220558.png
+2026-07-22 22:12:05,731 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 22:12:13,143 - INFO - Entering email: admin@example.com
+2026-07-22 22:12:13,257 - INFO - Entering password: ****
+2026-07-22 22:12:13,300 - INFO - Clicking Sign In button
+2026-07-22 22:12:20,510 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 22:12:29,275 - INFO - Starting customer export
+2026-07-22 22:12:29,276 - INFO - Selecting customer checkbox
+2026-07-22 22:12:32,873 - INFO - Clicking Export button
+2026-07-22 22:12:34,921 - INFO - Selecting export format: xls
+2026-07-22 22:12:35,978 - INFO - Confirming export
+2026-07-22 22:13:01,198 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260722_221301.png
+2026-07-22 23:04:25,011 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-22 23:04:27,722 - INFO - Entering email: admin@example.com
+2026-07-22 23:04:27,817 - INFO - Entering password: ****
+2026-07-22 23:04:27,854 - INFO - Clicking Sign In button
+2026-07-22 23:04:38,719 - INFO - Opening customers page: http://127.0.0.1:8000/admin/customers
+2026-07-22 23:04:46,640 - INFO - Starting customer export
+2026-07-22 23:04:46,640 - INFO - Selecting customer checkbox
+2026-07-22 23:04:50,258 - INFO - Clicking Export button
+2026-07-22 23:04:52,304 - INFO - Selecting export format: xls
+2026-07-22 23:04:53,383 - INFO - Confirming export
+2026-07-23 11:41:31,560 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-23 11:42:25,203 - INFO - Entering email: admin@example.com
+2026-07-23 11:45:01,816 - INFO - Opening admin login page: http://127.0.0.1:8000/admin
+2026-07-23 11:45:56,220 - INFO - Entering email: admin@example.com
+2026-07-23 11:45:56,448 - INFO - Entering password: ****
+2026-07-23 11:45:56,498 - INFO - Clicking Sign In button
+2026-07-23 11:46:13,444 - INFO - Opening profile menu
+2026-07-23 11:46:13,553 - INFO - Clicking logout button

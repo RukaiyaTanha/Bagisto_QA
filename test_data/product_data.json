@@ -1,0 +1,17 @@
+[
+    {
+        "type": "simple",
+        "family": "1",
+        "sku_prefix": "simple-test"
+    },
+    {
+        "type": "virtual",
+        "family": "1",
+        "sku_prefix": "virtual-test"
+    },
+    {
+        "type": "booking",
+        "family": "9",
+        "sku_prefix": "booking-test"
+    }
+]
