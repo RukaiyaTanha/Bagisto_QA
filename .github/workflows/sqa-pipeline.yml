@@ -35,8 +35,8 @@ jobs:
         run: pytest tests/ --html=report.html --self-contained-html -v
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
-          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
-          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          #ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          #ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
 
       # 6. Save your HTML report so you can download it
       - name: Upload Test Report
