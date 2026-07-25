@@ -164,47 +164,53 @@ class ProductsPage:
             time.sleep(2)
 
     def filter_by_status(self, status):
-
         logger.info(f"Filtering products by status: {status}")
 
     # Open filter panel
-        self.wait.until(
-            EC.element_to_be_clickable(
-                self.FILTER_BUTTON
-            )
-        ).click()
+        filter_button = self.wait.until(EC.element_to_be_clickable(self.FILTER_BUTTON))
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", filter_button)
+        time.sleep(0.5)
+        try:
+            filter_button.click()
+        except Exception:
+            logger.info("Filter button click intercepted, falling back to JS click")
+            self.driver.execute_script("arguments[0].click();", filter_button)
 
         time.sleep(1)
-
 
     # Open status dropdown
-        self.wait.until(
-            EC.element_to_be_clickable(
-                self.STATUS_DROPDOWN
-            )
-        ).click()
+        status_dropdown = self.wait.until(EC.element_to_be_clickable(self.STATUS_DROPDOWN))
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", status_dropdown)
+        time.sleep(0.5)
+        try:
+            status_dropdown.click()
+        except Exception:
+            logger.info("Status dropdown click intercepted, falling back to JS click")
+            self.driver.execute_script("arguments[0].click();", status_dropdown)
 
         time.sleep(1)
-
 
     # Select Active
         if status.lower() == "active":
-
-            self.wait.until(
-                EC.element_to_be_clickable(
-                    self.ACTIVE_OPTION
-                )
-            ).click()
-
+            active_option = self.wait.until(EC.element_to_be_clickable(self.ACTIVE_OPTION))
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", active_option)
+            time.sleep(0.5)
+            try:
+                active_option.click()
+            except Exception:
+                logger.info("Active option click intercepted, falling back to JS click")
+                self.driver.execute_script("arguments[0].click();", active_option)
 
         time.sleep(1)
 
-
     # Apply filters
-        self.wait.until(
-            EC.element_to_be_clickable(
-                self.APPLY_FILTER_BUTTON
-            )
-        ).click()
+        apply_button = self.wait.until(EC.element_to_be_clickable(self.APPLY_FILTER_BUTTON))
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", apply_button)
+        time.sleep(0.5)
+        try:
+            apply_button.click()
+        except Exception:
+            logger.info("Apply Filters click intercepted, falling back to JS click")
+            self.driver.execute_script("arguments[0].click();", apply_button)
 
         time.sleep(3)

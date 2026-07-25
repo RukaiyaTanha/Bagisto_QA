@@ -1285,3 +1285,88 @@
 2026-07-25 15:21:18,121 - INFO - Selecting Product Type: simple
 2026-07-25 15:21:18,737 - INFO - Selecting Attribute Family: 1
 2026-07-25 15:21:18,795 - INFO - Clicking Save Product button
+2026-07-25 15:46:02,689 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 15:46:07,386 - INFO - Entering email: admin@example.com
+2026-07-25 15:46:07,576 - INFO - Entering password: ****
+2026-07-25 15:46:07,669 - INFO - Clicking Sign In button
+2026-07-25 15:46:12,727 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 15:46:20,963 - ERROR - TEST FAILED: test_delete_currency_popup_disagree - Screenshot saved: screenshots/test_delete_currency_popup_disagree_20260725_154620.png
+2026-07-25 15:54:02,877 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 15:54:08,134 - INFO - Entering email: admin@example.com
+2026-07-25 15:54:08,549 - INFO - Entering password: ****
+2026-07-25 15:54:08,746 - INFO - Clicking Sign In button
+2026-07-25 15:54:14,804 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 15:54:25,750 - INFO - Deleting United States Dollar
+2026-07-25 15:54:25,820 - INFO - Clicking Disagree on confirmation popup
+2026-07-25 15:56:29,837 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 15:56:33,436 - INFO - Entering email: admin@example.com
+2026-07-25 15:56:33,519 - INFO - Entering password: ****
+2026-07-25 15:56:33,559 - INFO - Clicking Sign In button
+2026-07-25 15:56:37,598 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 15:56:46,949 - INFO - Creating currency: Euro (EUR)
+2026-07-25 15:56:47,862 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 15:56:56,562 - INFO - Deleting currency: Euro
+2026-07-25 15:56:56,657 - INFO - Clicking Agree on confirmation popup
+2026-07-25 15:57:02,335 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 15:57:05,884 - INFO - Entering email: admin@example.com
+2026-07-25 15:57:06,020 - INFO - Entering password: ****
+2026-07-25 15:57:06,058 - INFO - Clicking Sign In button
+2026-07-25 15:57:10,366 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 15:57:20,057 - INFO - Deleting United States Dollar
+2026-07-25 15:57:20,112 - INFO - Clicking Agree on confirmation popup
+2026-07-25 16:03:00,914 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:03:06,483 - INFO - Entering email: admin@example.com
+2026-07-25 16:03:06,599 - INFO - Entering password: ****
+2026-07-25 16:03:06,640 - INFO - Clicking Sign In button
+2026-07-25 16:03:11,023 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:03:20,098 - INFO - Creating currency: Euro (EUR)
+2026-07-25 16:03:21,056 - ERROR - TEST FAILED: test_delete_and_recreate_currency - Screenshot saved: screenshots/test_delete_and_recreate_currency_20260725_160320.png
+2026-07-25 16:03:23,965 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:03:27,464 - INFO - Entering email: admin@example.com
+2026-07-25 16:03:27,549 - INFO - Entering password: ****
+2026-07-25 16:03:27,591 - INFO - Clicking Sign In button
+2026-07-25 16:03:32,976 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:03:45,782 - INFO - Deleting United States Dollar
+2026-07-25 16:03:45,848 - INFO - Clicking Agree on confirmation popup
+2026-07-25 16:04:44,439 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:04:47,878 - INFO - Entering email: admin@example.com
+2026-07-25 16:04:48,177 - INFO - Entering password: ****
+2026-07-25 16:04:48,343 - INFO - Clicking Sign In button
+2026-07-25 16:04:53,612 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:05:02,530 - INFO - Deleting United States Dollar
+2026-07-25 16:05:02,611 - INFO - Clicking Disagree on confirmation popup
+2026-07-25 16:08:05,800 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:08:09,333 - INFO - Entering email: admin@example.com
+2026-07-25 16:08:09,434 - INFO - Entering password: ****
+2026-07-25 16:08:09,472 - INFO - Clicking Sign In button
+2026-07-25 16:08:14,244 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:08:26,312 - INFO - Creating currency: Euro (EUR)
+2026-07-25 16:08:27,619 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:08:35,146 - INFO - Deleting currency: Euro
+2026-07-25 16:08:35,205 - INFO - Clicking Agree on confirmation popup
+2026-07-25 16:08:40,768 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:08:44,379 - INFO - Entering email: admin@example.com
+2026-07-25 16:08:44,475 - INFO - Entering password: ****
+2026-07-25 16:08:44,512 - INFO - Clicking Sign In button
+2026-07-25 16:08:49,224 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:08:59,715 - INFO - Deleting United States Dollar
+2026-07-25 16:08:59,829 - INFO - Clicking Agree on confirmation popup
+2026-07-25 16:09:16,472 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:09:19,793 - INFO - Entering email: admin@example.com
+2026-07-25 16:09:19,885 - INFO - Entering password: ****
+2026-07-25 16:09:19,923 - INFO - Clicking Sign In button
+2026-07-25 16:09:26,901 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-07-25 16:09:34,448 - INFO - Deleting United States Dollar
+2026-07-25 16:09:34,522 - INFO - Clicking Disagree on confirmation popup
+2026-07-25 16:16:02,870 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:16:06,821 - INFO - Entering email: admin@example.com
+2026-07-25 16:16:06,939 - INFO - Entering password: ****
+2026-07-25 16:16:06,981 - INFO - Clicking Sign In button
+2026-07-25 16:16:13,359 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-07-25 16:16:19,042 - INFO - Filtering products by status: active
+2026-07-25 16:16:50,927 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:16:54,494 - INFO - Entering email: admin@example.com
+2026-07-25 16:16:54,592 - INFO - Entering password: ****
+2026-07-25 16:16:54,630 - INFO - Clicking Sign In button
+2026-07-25 16:17:00,957 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-07-25 16:17:06,286 - INFO - Filtering products by status: active
