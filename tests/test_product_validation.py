@@ -1,8 +1,8 @@
-from pages import products_page
+from pages.products_page import ProductsPage
 
 def test_create_product_without_sku(logged_in_driver):
 
-    products = products_page(logged_in_driver)
+    products = ProductsPage(logged_in_driver)
     products.open()
     products.click_create_product()
     products.select_type("simple")

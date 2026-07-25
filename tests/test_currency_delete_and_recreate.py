@@ -21,10 +21,10 @@ def test_cannot_delete_last_currency(logged_in_driver):
     currencies_page = CurrenciesPage(logged_in_driver)
     currencies_page.open()
 
-    assert currencies_page.is_currency_present(), "USD should exist before test starts"
+    assert currencies_page.is_currency_present("United States Dollar"), "USD should exist before test starts"
 
     currencies_page.click_delete_icon()
     currencies_page.click_agree()
 
     # USD should STILL be present - Bagisto should have blocked this deletion
-    assert currencies_page.is_currency_present(), "USD should NOT be deletable as the only currency"
+    assert currencies_page.is_currency_present("United States Dollar"), "USD should NOT be deletable as the only currency"

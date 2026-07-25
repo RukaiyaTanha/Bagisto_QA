@@ -5,6 +5,7 @@ from conftest import logged_in_driver
 from pages.products_page import ProductsPage
 from pages.product_edit_page import ProductEditPage
 from utils.data_reader import generate_unique_sku
+from selenium.webdriver.common.by import By
 import config
 
 
@@ -38,6 +39,12 @@ def test_description_saved_after_reload(logged_in_driver):
     time.sleep(2)
 
     logged_in_driver.save_screenshot("debug_after_save.png")
+    # Actively search for ANY red validation error text on the page
+    error_elements = logged_in_driver.find_elements(By.XPATH, "//*[contains(@class,'text-red') or contains(text(),'required')]")
+    for el in error_elements:
+        if el.text.strip():
+            print("VALIDATION ERROR FOUND:", el.text.strip())
+
     print("URL right after save attempt:", logged_in_driver.current_url)
 
     edit_page.open(product_id)

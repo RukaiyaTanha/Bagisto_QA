@@ -22,8 +22,16 @@ class DashboardPage:
         logger.info(f"Dashboard page title read as: {title}")
         return title
     
-    LOGOUT_BUTTON = ( By.XPATH, "//a[contains(text(),'Logout')]")
-    PROFILE_BUTTON = ( By.XPATH, "//button[contains(normalize-space(),'E')]")
+    LOGOUT_BUTTON = (
+        By.XPATH,
+        "//a[contains(@href,'logout')]"
+    )
+
+    PROFILE_BUTTON = (
+        By.XPATH,
+        "//button[contains(normalize-space(),'E')]"
+    )
+
 
     def logout(self):
 
@@ -43,3 +51,8 @@ class DashboardPage:
                 self.LOGOUT_BUTTON
             )
         ).click()
+
+
+        self.wait.until(
+            EC.url_contains("login")
+        )

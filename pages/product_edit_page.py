@@ -54,20 +54,33 @@ class ProductEditPage:
 
     def enter_short_description(self, text):
         logger.info(f"Entering short description: {text}")
+        iframe = self.wait.until(EC.presence_of_element_located(self.SHORT_DESCRIPTION_IFRAME))
+
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", iframe)
+        time.sleep(0.5)
+
+        self.driver.switch_to.frame(iframe)
+
+        body = self.driver.find_element(By.TAG_NAME, "body")
+        try:
+            body.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();", body)
+
+        body.send_keys(text)
+        time.sleep(1)
 
         self.driver.switch_to.default_content()
 
-        self.driver.execute_script("""
-        let editor = tinymce.get('short_description');
+        name_field = self.driver.find_element(*self.PRODUCT_NAME_FIELD)
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", name_field)
+        time.sleep(0.5)
+        try:
+            name_field.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();", name_field)
+        time.sleep(0.5)
 
-        if (editor) {
-            editor.setContent(arguments[0]);
-            editor.fire('change');
-            editor.save();
-        }
-    """, text)
-
-        time.sleep(1)
 
     def get_short_description_text(self):
         iframe = self.wait.until(EC.presence_of_element_located(self.SHORT_DESCRIPTION_IFRAME))
@@ -91,22 +104,33 @@ class ProductEditPage:
 
     def enter_description(self, text):
         logger.info(f"Entering description: {text}")
+        iframe = self.wait.until(EC.presence_of_element_located(self.DESCRIPTION_IFRAME))
+
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", iframe)
+        time.sleep(0.5)
+
+        self.driver.switch_to.frame(iframe)
+
+        body = self.driver.find_element(By.TAG_NAME, "body")
+        try:
+            body.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();", body)
+
+        body.send_keys(text)
+        time.sleep(1)
 
         self.driver.switch_to.default_content()
 
-        self.driver.execute_script("""
-        let editor = tinymce.get('description');
-
-        if (editor) {
-            editor.setContent(arguments[0]);
-            editor.fire('change');
-            editor.save();
-        }
-    """, text)
-
-        time.sleep(1)
-
-
+        name_field = self.driver.find_element(*self.PRODUCT_NAME_FIELD)
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", name_field)
+        time.sleep(0.5)
+        try:
+            name_field.click()
+        except Exception:
+            self.driver.execute_script("arguments[0].click();", name_field)
+        time.sleep(0.5)
+        
     def get_description_text(self):
         iframe = self.wait.until(EC.presence_of_element_located(self.DESCRIPTION_IFRAME))
         self.driver.switch_to.frame(iframe)

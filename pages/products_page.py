@@ -132,14 +132,15 @@ class ProductsPage:
 
     def click_filter(self):
         logger.info("Opening filter menu")
+
+        button = self.wait.until(
+            EC.visibility_of_element_located(self.FILTER_BUTTON)
+        )
         
-        self.wait.until(
-            EC.element_to_be_clickable(
-                self.FILTER_BUTTON
-            )
-        ).click()
+        self.driver.execute_script("arguments[0].click();", button)
         
         time.sleep(1)
+        button.click()
 
 
     def select_status(self, status):
