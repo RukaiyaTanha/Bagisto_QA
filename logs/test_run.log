@@ -1370,3 +1370,50 @@
 2026-07-25 16:16:54,630 - INFO - Clicking Sign In button
 2026-07-25 16:17:00,957 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
 2026-07-25 16:17:06,286 - INFO - Filtering products by status: active
+2026-07-25 16:41:31,638 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:41:35,375 - INFO - Entering email: admin@example.com
+2026-07-25 16:41:35,548 - INFO - Entering password: ****
+2026-07-25 16:41:35,588 - INFO - Clicking Sign In button
+2026-07-25 16:41:40,134 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-07-25 16:41:50,765 - INFO - Starting customer export
+2026-07-25 16:41:50,765 - INFO - Selecting customer checkbox
+2026-07-25 16:41:54,356 - INFO - Clicking Export button
+2026-07-25 16:41:56,415 - INFO - Selecting export format: xls
+2026-07-25 16:41:57,541 - INFO - Confirming export
+2026-07-25 16:44:06,737 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:44:12,705 - INFO - Entering email: admin@example.com
+2026-07-25 16:44:12,886 - INFO - Entering password: ****
+2026-07-25 16:44:12,933 - INFO - Clicking Sign In button
+2026-07-25 16:44:16,434 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-07-25 16:44:22,166 - INFO - Starting customer export
+2026-07-25 16:44:22,166 - INFO - Selecting customer checkbox
+2026-07-25 16:44:32,801 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260725_164432.png
+2026-07-25 16:45:09,097 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:45:12,410 - INFO - Entering email: admin@example.com
+2026-07-25 16:45:12,540 - INFO - Entering password: ****
+2026-07-25 16:45:12,580 - INFO - Clicking Sign In button
+2026-07-25 16:45:17,247 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-07-25 16:45:24,950 - INFO - Starting customer export
+2026-07-25 16:45:24,950 - INFO - Selecting customer checkbox
+2026-07-25 16:45:35,491 - ERROR - TEST FAILED: test_export_customers_xls - Screenshot saved: screenshots/test_export_customers_xls_20260725_164535.png
+2026-07-25 16:48:50,280 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:48:54,104 - INFO - Entering email: admin@example.com
+2026-07-25 16:48:54,230 - INFO - Entering password: ****
+2026-07-25 16:48:54,273 - INFO - Clicking Sign In button
+2026-07-25 16:48:59,092 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-07-25 16:49:08,607 - INFO - Starting customer export
+2026-07-25 16:49:08,607 - INFO - Selecting customer checkbox
+2026-07-25 16:49:12,213 - INFO - Clicking Export button
+2026-07-25 16:49:14,248 - INFO - Selecting export format: xls
+2026-07-25 16:49:15,363 - INFO - Confirming export
+2026-07-25 16:51:15,622 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-07-25 16:51:19,540 - INFO - Entering email: admin@example.com
+2026-07-25 16:51:19,686 - INFO - Entering password: ****
+2026-07-25 16:51:19,725 - INFO - Clicking Sign In button
+2026-07-25 16:51:23,987 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-07-25 16:51:33,438 - INFO - Starting customer export
+2026-07-25 16:51:33,438 - INFO - Selecting customer checkbox
+2026-07-25 16:51:36,006 - INFO - Found 1 matching checkbox labels
+2026-07-25 16:51:37,026 - INFO - Clicking Export button
+2026-07-25 16:51:39,067 - INFO - Selecting export format: xls
+2026-07-25 16:51:40,175 - INFO - Confirming export

@@ -47,23 +47,25 @@ class CustomersPage:
 
 
     def select_customer(self):
-
         logger.info("Selecting customer checkbox")
 
-        checkbox = self.wait.until(
-            EC.element_to_be_clickable(
-                self.CUSTOMER_CHECKBOX
-            )
+        checkboxes = self.wait.until(
+            EC.presence_of_all_elements_located(self.CUSTOMER_CHECKBOX)
         )
 
-        self.driver.execute_script(
-            "arguments[0].click();",
-            checkbox
-        )
+        logger.info(f"Found {len(checkboxes)} matching checkbox labels")
 
+        visible_checkbox = None
+        for cb in checkboxes:
+            if cb.is_displayed():
+                visible_checkbox = cb
+                break
+
+        if visible_checkbox is None:
+            raise Exception("No visible customer checkbox found on the page")
+
+        self.driver.execute_script("arguments[0].click();", visible_checkbox)
         time.sleep(1)
-
-
 
     def click_export(self):
 
