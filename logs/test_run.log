@@ -1417,3 +1417,48 @@
 2026-07-25 16:51:37,026 - INFO - Clicking Export button
 2026-07-25 16:51:39,067 - INFO - Selecting export format: xls
 2026-07-25 16:51:40,175 - INFO - Confirming export
+2026-11-01 18:31:24,410 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 18:31:34,867 - INFO - Entering email: admin@example.com
+2026-11-01 18:31:35,067 - INFO - Entering password: ****
+2026-11-01 18:31:35,102 - INFO - Clicking Sign In button
+2026-11-01 18:31:50,348 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 18:32:02,020 - INFO - Clicking Create Product button
+2026-11-01 18:32:02,118 - INFO - Selecting Product Type: simple
+2026-11-01 18:32:02,698 - INFO - Selecting Attribute Family: 1
+2026-11-01 18:32:02,760 - INFO - Entering SKU: frame-test-1793536322
+2026-11-01 18:32:02,876 - INFO - Clicking Save Product button
+2026-11-01 18:32:19,425 - INFO - Updating product name: Frame Test Product frame-test-1793536322
+2026-11-01 18:32:19,642 - INFO - Entering URL key: frame-test-1793536322
+2026-11-01 18:32:20,007 - INFO - Entering price: 99.99
+2026-11-01 18:32:20,089 - INFO - Entering weight: 1.5
+2026-11-01 18:32:20,170 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-11-01 18:32:23,239 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-11-01 18:32:26,221 - INFO - Saving product changes
+2026-11-01 18:32:35,365 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/282
+2026-11-01 19:03:39,714 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:03:51,648 - INFO - Entering email: admin@example.com
+2026-11-01 19:03:51,761 - INFO - Entering password: ****
+2026-11-01 19:03:51,794 - INFO - Clicking Sign In button
+2026-11-01 19:03:59,791 - INFO - Dashboard page title read as: Dashboard
+2026-11-01 19:04:02,786 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:04:05,609 - INFO - Entering email: admin@example.com
+2026-11-01 19:04:05,676 - INFO - Entering password: ****
+2026-11-01 19:04:05,710 - INFO - Clicking Sign In button
+2026-11-01 19:04:52,247 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:04:55,680 - INFO - Entering email: admin@example.com
+2026-11-01 19:04:55,744 - INFO - Entering password: ****
+2026-11-01 19:04:55,777 - INFO - Clicking Sign In button
+2026-11-01 19:05:02,814 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:05:11,501 - INFO - Clicking Create Product button
+2026-11-01 19:05:11,633 - INFO - Selecting Product Type: simple
+2026-11-01 19:05:11,783 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:05:11,841 - INFO - Entering SKU: frame-test-1793538311
+2026-11-01 19:05:11,927 - INFO - Clicking Save Product button
+2026-11-01 19:05:22,539 - INFO - Updating product name: Frame Test Product frame-test-1793538311
+2026-11-01 19:05:22,769 - INFO - Entering URL key: frame-test-1793538311
+2026-11-01 19:05:22,913 - INFO - Entering price: 99.99
+2026-11-01 19:05:23,171 - INFO - Entering weight: 1.5
+2026-11-01 19:05:23,265 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-11-01 19:05:26,349 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-11-01 19:05:29,323 - INFO - Saving product changes
+2026-11-01 19:05:35,578 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/283
