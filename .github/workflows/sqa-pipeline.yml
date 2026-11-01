@@ -1,55 +1,108 @@
+
 name: Bagisto SQA Automation Pipeline
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [main]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   run-tests:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Windows, X64]
+
+    timeout-minutes: 45
 
     steps:
 
-      # 1. Download your code from GitHub
-      - name: Checkout code
+      # 1. Checkout repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      # 2. Install Python
+      # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10.11'
+          cache: 'pip'
 
-      # 3. Install Chrome browser
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@latest
+      # 3. Check environment
+      - name: Check Environment
+        run: |
+          python --version
+          pip --version
+          google-chrome --version
+        continue-on-error: true
 
-      # 4. Install your Python libraries from requirements.txt
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      # 4. Install dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
-      # 5. Run all your Pytest tests
-      - name: Run Selenium Tests
-        run: pytest tests/ --html=report.html --self-contained-html -v
+      # 5. Prepare directories
+      - name: Prepare Test Directories
+        run: |
+          New-Item -ItemType Directory -Force -Path downloads
+          New-Item -ItemType Directory -Force -Path screenshots
+
+      # 6. Check Bagisto
+      - name: Check Bagisto Server
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
-          #ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
-          #ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+        run: |
+          if (-not $env:BASE_URL) {
+            throw "BASE_URL secret is missing."
+          }
 
-      # 6. Save your HTML report so you can download it
+          try {
+            $response = Invoke-WebRequest `
+              -Uri $env:BASE_URL `
+              -TimeoutSec 15 `
+              -UseBasicParsing
+
+            Write-Host "Bagisto responded with status: $($response.StatusCode)"
+          }
+          catch {
+            throw "Cannot access Bagisto at $env:BASE_URL. $($_.Exception.Message)"
+          }
+
+      # 7. Run Selenium tests
+      - name: Run Selenium Tests
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+
+        run: |
+          python -m pytest tests/ `
+            --html=report.html `
+            --self-contained-html `
+            -v
+
+      # 8. Upload HTML report
       - name: Upload Test Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-report
+          name: Bagisto-QA-HTML-Report
           path: report.html
+          if-no-files-found: warn
 
-      # 7. Save screenshots (especially useful when tests fail)
-      - name: Upload Screenshots
-        if: failure()
+      # 9. Upload screenshots
+      - name: Upload Failure Screenshots
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: failure-screenshots
+          name: Bagisto-QA-Failure-Screenshots
           path: screenshots/
+          if-no-files-found: ignore
+
+      # 10. Pipeline completion
+      - name: Pipeline Status
+        if: always()
+        run: |
+          Write-Host "Bagisto QA pipeline execution completed."
