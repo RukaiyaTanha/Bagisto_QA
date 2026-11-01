@@ -1,13 +1,16 @@
+
 import os
 import pytest
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from pages.login_page import LoginPage
+
+
 @pytest.fixture
 def driver():
-
-    import os
 
     download_dir = os.path.abspath("downloads")
     os.makedirs(download_dir, exist_ok=True)
@@ -36,3 +39,16 @@ def driver():
     yield drv
 
     drv.quit()
+
+
+@pytest.fixture
+def logged_in_driver(driver):
+
+    login_page = LoginPage(driver)
+    login_page.login()
+
+    WebDriverWait(driver, 10).until(
+        EC.title_contains("Dashboard")
+    )
+
+    return driver

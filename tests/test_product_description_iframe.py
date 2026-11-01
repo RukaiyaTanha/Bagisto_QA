@@ -1,7 +1,7 @@
 # tests/test_product_description_iframe.py
 import time
 from selenium.webdriver.support.ui import WebDriverWait
-from conftest import logged_in_driver
+#from conftest import logged_in_driver
 from pages.products_page import ProductsPage
 from pages.product_edit_page import ProductEditPage
 from utils.data_reader import generate_unique_sku
