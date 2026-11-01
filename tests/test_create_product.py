@@ -1,8 +1,10 @@
-# tests/test_create_product.py
+
 from selenium.webdriver.support.ui import WebDriverWait
 import pytest
 from pages.products_page import ProductsPage
 from utils.data_reader import load_json_data, generate_unique_sku
+import config
+
 
 product_test_data = load_json_data("product_data.json")
 
@@ -20,7 +22,10 @@ def test_create_product_data_driven(logged_in_driver, row):
         sku=unique_sku
     )
 
-    wait = WebDriverWait(logged_in_driver, 10)
-    wait.until(lambda d: d.current_url != "http://127.0.0.1:8000/admin/catalog/products")
+    wait = WebDriverWait(logged_in_driver, config.DEFAULT_TIMEOUT)
 
-    assert "edit" in logged_in_driver.current_url
+    wait.until(
+        lambda d: "/admin/catalog/products/edit/" in d.current_url
+    )
+
+    assert "/admin/catalog/products/edit/" in logged_in_driver.current_url

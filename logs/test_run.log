@@ -1462,3 +1462,751 @@
 2026-11-01 19:05:26,349 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
 2026-11-01 19:05:29,323 - INFO - Saving product changes
 2026-11-01 19:05:35,578 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/283
+2026-11-01 19:09:56,351 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:10:06,938 - INFO - Entering email: admin@example.com
+2026-11-01 19:10:07,073 - INFO - Entering password: ****
+2026-11-01 19:10:07,121 - INFO - Clicking Sign In button
+2026-11-01 19:10:16,265 - INFO - Opening profile menu
+2026-11-01 19:10:16,429 - INFO - Clicking logout button
+2026-11-01 19:10:38,557 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:10:41,829 - INFO - Entering email: admin@example.com
+2026-11-01 19:10:41,891 - INFO - Entering password: ****
+2026-11-01 19:10:41,924 - INFO - Clicking Sign In button
+2026-11-01 19:10:52,900 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 19:11:05,674 - INFO - Opening next page
+2026-11-01 19:11:16,087 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:11:26,597 - INFO - Entering email: admin@example.com
+2026-11-01 19:11:26,742 - INFO - Entering password: ****
+2026-11-01 19:11:26,807 - INFO - Clicking Sign In button
+2026-11-01 19:11:37,328 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:11:58,604 - INFO - Clicking Create Product button
+2026-11-01 19:11:58,789 - INFO - Selecting Product Type: booking
+2026-11-01 19:11:58,980 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:11:59,044 - INFO - Entering SKU: booking-test-1793538718
+2026-11-01 19:11:59,162 - INFO - Clicking Save Product button
+2026-11-01 19:12:02,649 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:12:11,679 - INFO - Entering email: admin@example.com
+2026-11-01 19:12:11,742 - INFO - Entering password: ****
+2026-11-01 19:12:11,780 - INFO - Clicking Sign In button
+2026-11-01 19:12:20,142 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 19:12:38,389 - INFO - Entering category name: Test Category oEslA
+2026-11-01 19:12:38,673 - INFO - Entering position: 1
+2026-11-01 19:12:38,746 - INFO - Selecting display mode: products_and_description
+2026-11-01 19:12:38,785 - INFO - Checking filterable attribute: Price
+2026-11-01 19:12:38,858 - INFO - Entering category description: This is a test category created via Selenium.
+2026-11-01 19:12:41,332 - INFO - Entering slug: test-category-flkak
+2026-11-01 19:12:41,540 - INFO - Clicking Save Category button
+2026-11-01 19:12:57,576 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:13:05,372 - INFO - Entering email: admin@example.com
+2026-11-01 19:13:05,451 - INFO - Entering password: ****
+2026-11-01 19:13:05,496 - INFO - Clicking Sign In button
+2026-11-01 19:13:21,909 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:13:33,356 - INFO - Clicking Create Product button
+2026-11-01 19:13:33,512 - INFO - Selecting Product Type: simple
+2026-11-01 19:13:33,648 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:13:33,708 - INFO - Entering SKU: simple-test-1793538813
+2026-11-01 19:13:33,811 - INFO - Clicking Save Product button
+2026-11-01 19:13:36,659 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:13:52,577 - INFO - Entering email: admin@example.com
+2026-11-01 19:13:52,660 - INFO - Entering password: ****
+2026-11-01 19:13:52,697 - INFO - Clicking Sign In button
+2026-11-01 19:14:03,379 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:14:15,438 - INFO - Clicking Create Product button
+2026-11-01 19:14:15,531 - INFO - Selecting Product Type: virtual
+2026-11-01 19:14:16,111 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:14:16,155 - INFO - Entering SKU: virtual-test-1793538855
+2026-11-01 19:14:16,227 - INFO - Clicking Save Product button
+2026-11-01 19:14:19,273 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:14:30,062 - INFO - Entering email: admin@example.com
+2026-11-01 19:14:30,127 - INFO - Entering password: ****
+2026-11-01 19:14:30,168 - INFO - Clicking Sign In button
+2026-11-01 19:14:38,475 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:14:50,789 - INFO - Clicking Create Product button
+2026-11-01 19:14:50,895 - INFO - Selecting Product Type: booking
+2026-11-01 19:14:51,476 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:14:51,522 - INFO - Entering SKU: booking-test-1793538890
+2026-11-01 19:14:51,603 - INFO - Clicking Save Product button
+2026-11-01 19:14:54,678 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:15:05,606 - INFO - Entering email: admin@example.com
+2026-11-01 19:15:05,687 - INFO - Entering password: ****
+2026-11-01 19:15:05,726 - INFO - Clicking Sign In button
+2026-11-01 19:15:17,455 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:15:29,893 - INFO - Clicking Create Product button
+2026-11-01 19:15:30,076 - INFO - Selecting Product Type: simple
+2026-11-01 19:15:30,686 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:15:30,745 - INFO - Clicking Save Product button
+2026-11-01 19:15:35,791 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:15:46,710 - INFO - Entering email: admin@example.com
+2026-11-01 19:15:46,786 - INFO - Entering password: ****
+2026-11-01 19:15:46,821 - INFO - Clicking Sign In button
+2026-11-01 19:15:56,772 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:16:17,168 - INFO - Deleting United States Dollar
+2026-11-01 19:16:17,222 - INFO - Clicking Disagree on confirmation popup
+2026-11-01 19:16:21,010 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:16:31,374 - INFO - Entering email: admin@example.com
+2026-11-01 19:16:31,437 - INFO - Entering password: ****
+2026-11-01 19:16:31,487 - INFO - Clicking Sign In button
+2026-11-01 19:16:41,385 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:16:52,614 - INFO - Creating currency: Euro (EUR)
+2026-11-01 19:16:53,929 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:17:18,822 - INFO - Deleting currency: Euro
+2026-11-01 19:17:18,907 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:17:25,924 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:17:35,630 - INFO - Entering email: admin@example.com
+2026-11-01 19:17:35,743 - INFO - Entering password: ****
+2026-11-01 19:17:35,911 - INFO - Clicking Sign In button
+2026-11-01 19:17:52,442 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:18:07,485 - INFO - Deleting United States Dollar
+2026-11-01 19:18:07,545 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:18:11,052 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:18:21,467 - INFO - Entering email: admin@example.com
+2026-11-01 19:18:21,536 - INFO - Entering password: ****
+2026-11-01 19:18:21,574 - INFO - Clicking Sign In button
+2026-11-01 19:18:29,948 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 19:18:41,872 - INFO - Entering category name: Delete Test Category RaicS
+2026-11-01 19:18:42,136 - INFO - Entering position: 1
+2026-11-01 19:18:42,188 - INFO - Selecting display mode: products_and_description
+2026-11-01 19:18:42,212 - INFO - Checking filterable attribute: Price
+2026-11-01 19:18:42,262 - INFO - Entering category description: This category will be deleted in this test.
+2026-11-01 19:18:44,616 - INFO - Entering slug: delete-test-leaav
+2026-11-01 19:18:44,770 - INFO - Clicking Save Category button
+2026-11-01 19:18:51,800 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 19:19:09,447 - INFO - Clicking delete icon for category: Delete Test Category RaicS
+2026-11-01 19:19:09,494 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:19:15,879 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:19:20,611 - INFO - Entering email: admin@example.com
+2026-11-01 19:19:20,692 - INFO - Entering password: ****
+2026-11-01 19:19:20,729 - INFO - Clicking Sign In button
+2026-11-01 19:19:28,974 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:19:40,185 - INFO - Opening edit page for product ID: 53
+2026-11-01 19:19:52,961 - INFO - Updating product name: Azure Comfort Updated Test Product
+2026-11-01 19:19:53,283 - INFO - Saving product changes
+2026-11-01 19:20:12,587 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:20:23,154 - INFO - Entering email: admin@example.com
+2026-11-01 19:20:23,238 - INFO - Entering password: ****
+2026-11-01 19:20:23,293 - INFO - Clicking Sign In button
+2026-11-01 19:20:36,691 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-11-01 19:20:50,460 - INFO - Starting customer export
+2026-11-01 19:20:50,460 - INFO - Selecting customer checkbox
+2026-11-01 19:20:58,680 - INFO - Found 1 matching checkbox labels
+2026-11-01 19:20:59,713 - INFO - Clicking Export button
+2026-11-01 19:21:01,744 - INFO - Selecting export format: xls
+2026-11-01 19:21:02,782 - INFO - Confirming export
+2026-11-01 19:21:10,684 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:21:13,665 - INFO - Entering email: admin@example.com
+2026-11-01 19:21:13,727 - INFO - Entering password: ****
+2026-11-01 19:21:13,766 - INFO - Clicking Sign In button
+2026-11-01 19:21:25,643 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:21:37,007 - INFO - Filtering products by status: active
+2026-11-01 19:21:53,930 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:22:00,459 - INFO - Entering email: admin@example.com
+2026-11-01 19:22:00,526 - INFO - Entering password: ****
+2026-11-01 19:22:00,562 - INFO - Clicking Sign In button
+2026-11-01 19:22:14,657 - INFO - Dashboard page title read as: Dashboard
+2026-11-01 19:22:17,720 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:22:23,220 - INFO - Entering email: admin@example.com
+2026-11-01 19:22:23,291 - INFO - Entering password: ****
+2026-11-01 19:22:23,333 - INFO - Clicking Sign In button
+2026-11-01 19:22:29,426 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:22:41,235 - INFO - Entering email: admin@example.com
+2026-11-01 19:22:41,330 - INFO - Entering password: ****
+2026-11-01 19:22:41,365 - INFO - Clicking Sign In button
+2026-11-01 19:22:51,688 - INFO - Opening profile menu
+2026-11-01 19:22:51,760 - INFO - Clicking logout button
+2026-11-01 19:23:08,978 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:23:14,114 - INFO - Entering email: admin@example.com
+2026-11-01 19:23:14,177 - INFO - Entering password: ****
+2026-11-01 19:23:14,208 - INFO - Clicking Sign In button
+2026-11-01 19:23:20,122 - INFO - Opening new tab with URL: http://localhost:8000
+2026-11-01 19:24:04,038 - INFO - Switched to new window, title: Demo store
+2026-11-01 19:24:04,045 - INFO - Closing current window
+2026-11-01 19:24:04,116 - INFO - Switched back to main window, title: Dashboard
+2026-11-01 19:24:07,023 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:24:10,516 - INFO - Entering email: admin@example.com
+2026-11-01 19:24:10,576 - INFO - Entering password: ****
+2026-11-01 19:24:10,608 - INFO - Clicking Sign In button
+2026-11-01 19:24:16,862 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:24:23,687 - INFO - Clicking Create Product button
+2026-11-01 19:24:23,822 - INFO - Selecting Product Type: simple
+2026-11-01 19:24:24,404 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:24:24,456 - INFO - Entering SKU: frame-test-1793539463
+2026-11-01 19:24:24,557 - INFO - Clicking Save Product button
+2026-11-01 19:24:29,594 - INFO - Updating product name: Frame Test Product frame-test-1793539463
+2026-11-01 19:24:30,204 - INFO - Entering URL key: frame-test-1793539463
+2026-11-01 19:24:30,471 - INFO - Entering price: 99.99
+2026-11-01 19:24:30,615 - INFO - Entering weight: 1.5
+2026-11-01 19:24:30,710 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-11-01 19:24:33,928 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-11-01 19:24:37,259 - INFO - Saving product changes
+2026-11-01 19:24:40,045 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/284
+2026-11-01 19:24:47,303 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:24:49,870 - INFO - Entering email: admin@example.com
+2026-11-01 19:24:49,964 - INFO - Entering password: ****
+2026-11-01 19:24:49,996 - INFO - Clicking Sign In button
+2026-11-01 19:24:55,721 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:25:04,808 - INFO - Clicking Create Product button
+2026-11-01 19:25:08,277 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:25:10,872 - INFO - Entering email: admin@example.com
+2026-11-01 19:25:10,969 - INFO - Entering password: ****
+2026-11-01 19:25:11,008 - INFO - Clicking Sign In button
+2026-11-01 19:25:16,891 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:25:25,291 - INFO - Clicking Create Product button
+2026-11-01 19:25:25,523 - INFO - Selecting Product Type: simple
+2026-11-01 19:25:26,092 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:25:26,140 - INFO - Clicking Save Product button
+2026-11-01 19:25:29,073 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:25:31,497 - INFO - Entering email: admin@example.com
+2026-11-01 19:25:31,559 - INFO - Entering password: ****
+2026-11-01 19:25:31,599 - INFO - Clicking Sign In button
+2026-11-01 19:25:37,942 - INFO - Opening sales report page: http://localhost:8000/admin/reporting/sales
+2026-11-01 19:25:48,936 - INFO - Opening start date picker
+2026-11-01 19:25:49,059 - INFO - Selecting month 6, year 2026
+2026-11-01 19:25:49,812 - INFO - Selecting date: July 15, 2026
+2026-11-01 19:25:52,694 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:25:55,355 - INFO - Entering email: admin@example.com
+2026-11-01 19:25:55,417 - INFO - Entering password: ****
+2026-11-01 19:25:55,448 - INFO - Clicking Sign In button
+2026-11-01 19:26:01,607 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:26:10,256 - INFO - Searching product: shirt
+2026-11-01 19:44:48,338 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:44:58,023 - INFO - Entering email: admin@example.com
+2026-11-01 19:44:58,130 - INFO - Entering password: ****
+2026-11-01 19:44:58,172 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:44:58,190 - INFO - Clicking Sign In button
+2026-11-01 19:45:06,561 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:45:06,570 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:45:15,820 - INFO - Clicking Create Product button
+2026-11-01 19:45:15,912 - INFO - Selecting Product Type: simple
+2026-11-01 19:45:16,487 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:45:16,527 - INFO - Entering SKU: simple-test-1793540715
+2026-11-01 19:45:16,623 - INFO - Clicking Save Product button
+2026-11-01 19:45:29,300 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:45:32,969 - INFO - Entering email: admin@example.com
+2026-11-01 19:45:33,033 - INFO - Entering password: ****
+2026-11-01 19:45:33,069 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:45:33,087 - INFO - Clicking Sign In button
+2026-11-01 19:45:39,656 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:45:39,663 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:45:48,625 - INFO - Clicking Create Product button
+2026-11-01 19:45:48,720 - INFO - Selecting Product Type: virtual
+2026-11-01 19:45:49,278 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:45:49,317 - INFO - Entering SKU: virtual-test-1793540748
+2026-11-01 19:45:49,408 - INFO - Clicking Save Product button
+2026-11-01 19:46:00,389 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:46:03,787 - INFO - Entering email: admin@example.com
+2026-11-01 19:46:03,846 - INFO - Entering password: ****
+2026-11-01 19:46:03,888 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:46:03,904 - INFO - Clicking Sign In button
+2026-11-01 19:46:11,368 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:46:11,373 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:46:20,189 - INFO - Clicking Create Product button
+2026-11-01 19:46:20,336 - INFO - Selecting Product Type: booking
+2026-11-01 19:46:20,422 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:46:20,474 - INFO - Entering SKU: booking-test-1793540780
+2026-11-01 19:46:20,569 - INFO - Clicking Save Product button
+2026-11-01 19:46:32,901 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:46:35,968 - INFO - Entering email: admin@example.com
+2026-11-01 19:46:36,032 - INFO - Entering password: ****
+2026-11-01 19:46:36,070 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:46:36,086 - INFO - Clicking Sign In button
+2026-11-01 19:46:42,333 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:46:42,341 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:46:51,422 - INFO - Clicking Create Product button
+2026-11-01 19:46:51,522 - INFO - Selecting Product Type: booking
+2026-11-01 19:46:52,102 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:46:52,153 - INFO - Entering SKU: booking-test-1793540811
+2026-11-01 19:46:52,238 - INFO - Clicking Save Product button
+2026-11-01 19:48:10,076 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:48:13,756 - INFO - Entering email: admin@example.com
+2026-11-01 19:48:13,837 - INFO - Entering password: ****
+2026-11-01 19:48:13,911 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:48:13,953 - INFO - Clicking Sign In button
+2026-11-01 19:48:20,040 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:48:20,053 - INFO - Opening profile menu
+2026-11-01 19:48:20,174 - INFO - Clicking logout button
+2026-11-01 19:48:35,866 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:48:39,757 - INFO - Entering email: admin@example.com
+2026-11-01 19:48:39,877 - INFO - Entering password: ****
+2026-11-01 19:48:39,998 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:48:40,070 - INFO - Clicking Sign In button
+2026-11-01 19:48:46,589 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:48:46,600 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 19:48:55,687 - INFO - Opening next page
+2026-11-01 19:49:02,063 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:49:05,924 - INFO - Entering email: admin@example.com
+2026-11-01 19:49:05,989 - INFO - Entering password: ****
+2026-11-01 19:49:06,024 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:49:06,038 - INFO - Clicking Sign In button
+2026-11-01 19:49:13,228 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:49:13,236 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:49:22,561 - INFO - Clicking Create Product button
+2026-11-01 19:49:22,651 - INFO - Selecting Product Type: booking
+2026-11-01 19:49:23,214 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:49:23,257 - INFO - Entering SKU: booking-test-1793540962
+2026-11-01 19:49:23,324 - INFO - Clicking Save Product button
+2026-11-01 19:49:36,843 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:49:39,114 - INFO - Entering email: admin@example.com
+2026-11-01 19:49:39,179 - INFO - Entering password: ****
+2026-11-01 19:49:39,215 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:49:39,229 - INFO - Clicking Sign In button
+2026-11-01 19:49:45,701 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:49:45,706 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 19:49:55,895 - INFO - Entering category name: Test Category XzBAr
+2026-11-01 19:49:56,113 - INFO - Entering position: 1
+2026-11-01 19:49:56,168 - INFO - Selecting display mode: products_and_description
+2026-11-01 19:49:56,199 - INFO - Checking filterable attribute: Price
+2026-11-01 19:49:56,307 - INFO - Entering category description: This is a test category created via Selenium.
+2026-11-01 19:49:58,258 - INFO - Entering slug: test-category-ticeu
+2026-11-01 19:49:58,402 - INFO - Clicking Save Category button
+2026-11-01 19:50:06,797 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:50:10,582 - INFO - Entering email: admin@example.com
+2026-11-01 19:50:10,642 - INFO - Entering password: ****
+2026-11-01 19:50:10,676 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:50:10,691 - INFO - Clicking Sign In button
+2026-11-01 19:50:16,476 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:50:16,485 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:50:25,557 - INFO - Clicking Create Product button
+2026-11-01 19:50:25,676 - INFO - Selecting Product Type: simple
+2026-11-01 19:50:26,269 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:50:26,314 - INFO - Entering SKU: simple-test-1793541025
+2026-11-01 19:50:26,381 - INFO - Clicking Save Product button
+2026-11-01 19:50:39,258 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:50:42,226 - INFO - Entering email: admin@example.com
+2026-11-01 19:50:42,289 - INFO - Entering password: ****
+2026-11-01 19:50:42,335 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:50:42,353 - INFO - Clicking Sign In button
+2026-11-01 19:50:48,555 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:50:48,561 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:50:57,846 - INFO - Clicking Create Product button
+2026-11-01 19:50:57,943 - INFO - Selecting Product Type: virtual
+2026-11-01 19:50:58,510 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:50:58,554 - INFO - Entering SKU: virtual-test-1793541057
+2026-11-01 19:50:58,631 - INFO - Clicking Save Product button
+2026-11-01 19:51:09,735 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:51:13,482 - INFO - Entering email: admin@example.com
+2026-11-01 19:51:13,544 - INFO - Entering password: ****
+2026-11-01 19:51:13,581 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:51:13,596 - INFO - Clicking Sign In button
+2026-11-01 19:51:19,532 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:51:19,538 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:51:28,188 - INFO - Clicking Create Product button
+2026-11-01 19:51:28,283 - INFO - Selecting Product Type: booking
+2026-11-01 19:51:28,876 - INFO - Selecting Attribute Family: 9
+2026-11-01 19:51:28,955 - INFO - Entering SKU: booking-test-1793541088
+2026-11-01 19:51:29,069 - INFO - Clicking Save Product button
+2026-11-01 19:51:40,743 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:51:43,578 - INFO - Entering email: admin@example.com
+2026-11-01 19:51:43,640 - INFO - Entering password: ****
+2026-11-01 19:51:43,674 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:51:43,689 - INFO - Clicking Sign In button
+2026-11-01 19:51:49,672 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:51:49,676 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:51:58,577 - INFO - Clicking Create Product button
+2026-11-01 19:51:58,704 - INFO - Selecting Product Type: simple
+2026-11-01 19:51:59,288 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:51:59,342 - INFO - Clicking Save Product button
+2026-11-01 19:52:04,208 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:52:06,874 - INFO - Entering email: admin@example.com
+2026-11-01 19:52:06,957 - INFO - Entering password: ****
+2026-11-01 19:52:07,008 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:52:07,033 - INFO - Clicking Sign In button
+2026-11-01 19:52:14,074 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:52:14,085 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:52:23,944 - INFO - Deleting United States Dollar
+2026-11-01 19:52:23,993 - INFO - Clicking Disagree on confirmation popup
+2026-11-01 19:52:27,356 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:52:30,328 - INFO - Entering email: admin@example.com
+2026-11-01 19:52:30,390 - INFO - Entering password: ****
+2026-11-01 19:52:30,425 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:52:30,439 - INFO - Clicking Sign In button
+2026-11-01 19:52:38,928 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:52:38,935 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:52:47,919 - INFO - Creating currency: Euro (EUR)
+2026-11-01 19:52:49,174 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:52:58,537 - INFO - Deleting currency: Euro
+2026-11-01 19:52:58,582 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:53:04,982 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:53:07,737 - INFO - Entering email: admin@example.com
+2026-11-01 19:53:07,800 - INFO - Entering password: ****
+2026-11-01 19:53:07,835 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:53:07,850 - INFO - Clicking Sign In button
+2026-11-01 19:53:13,927 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:53:13,937 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 19:53:25,018 - INFO - Deleting United States Dollar
+2026-11-01 19:53:25,076 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:53:28,372 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:53:30,952 - INFO - Entering email: admin@example.com
+2026-11-01 19:53:31,015 - INFO - Entering password: ****
+2026-11-01 19:53:31,052 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:53:31,068 - INFO - Clicking Sign In button
+2026-11-01 19:53:37,069 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:53:37,073 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 19:53:47,118 - INFO - Entering category name: Delete Test Category PfVry
+2026-11-01 19:53:47,340 - INFO - Entering position: 1
+2026-11-01 19:53:47,521 - INFO - Selecting display mode: products_and_description
+2026-11-01 19:53:47,547 - INFO - Checking filterable attribute: Price
+2026-11-01 19:53:47,614 - INFO - Entering category description: This category will be deleted in this test.
+2026-11-01 19:53:49,510 - INFO - Entering slug: delete-test-dvfkk
+2026-11-01 19:53:49,641 - INFO - Clicking Save Category button
+2026-11-01 19:53:54,173 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 19:54:01,640 - INFO - Clicking delete icon for category: Delete Test Category PfVry
+2026-11-01 19:54:01,684 - INFO - Clicking Agree on confirmation popup
+2026-11-01 19:54:08,189 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:54:11,296 - INFO - Entering email: admin@example.com
+2026-11-01 19:54:11,360 - INFO - Entering password: ****
+2026-11-01 19:54:11,395 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:54:11,409 - INFO - Clicking Sign In button
+2026-11-01 19:54:17,551 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:54:17,555 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:54:26,001 - INFO - Opening edit page for product ID: 53
+2026-11-01 19:54:32,990 - INFO - Updating product name: Azure Comfort Updated Test Product
+2026-11-01 19:54:33,264 - INFO - Saving product changes
+2026-11-01 19:54:43,298 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:54:45,849 - INFO - Entering email: admin@example.com
+2026-11-01 19:54:45,908 - INFO - Entering password: ****
+2026-11-01 19:54:45,942 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:54:45,957 - INFO - Clicking Sign In button
+2026-11-01 19:54:51,606 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:54:51,609 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-11-01 19:55:00,425 - INFO - Starting customer export
+2026-11-01 19:55:00,426 - INFO - Selecting customer checkbox
+2026-11-01 19:55:02,973 - INFO - Found 1 matching checkbox labels
+2026-11-01 19:55:03,986 - INFO - Clicking Export button
+2026-11-01 19:55:06,017 - INFO - Selecting export format: xls
+2026-11-01 19:55:07,052 - INFO - Confirming export
+2026-11-01 19:55:14,913 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:55:18,898 - INFO - Entering email: admin@example.com
+2026-11-01 19:55:18,959 - INFO - Entering password: ****
+2026-11-01 19:55:18,995 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:55:19,009 - INFO - Clicking Sign In button
+2026-11-01 19:55:24,351 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:55:24,355 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:55:32,807 - INFO - Filtering products by status: active
+2026-11-01 19:55:46,368 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:55:49,658 - INFO - Entering email: admin@example.com
+2026-11-01 19:55:49,722 - INFO - Entering password: ****
+2026-11-01 19:55:49,757 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:55:49,771 - INFO - Clicking Sign In button
+2026-11-01 19:55:55,407 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:55:55,420 - INFO - Dashboard page title read as: Dashboard
+2026-11-01 19:55:58,171 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:56:01,107 - INFO - Entering email: admin@example.com
+2026-11-01 19:56:01,169 - INFO - Entering password: ****
+2026-11-01 19:56:01,210 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:56:01,226 - INFO - Clicking Sign In button
+2026-11-01 19:56:14,589 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:56:18,002 - INFO - Entering email: admin@example.com
+2026-11-01 19:56:18,066 - INFO - Entering password: ****
+2026-11-01 19:56:18,101 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:56:18,115 - INFO - Clicking Sign In button
+2026-11-01 19:56:24,220 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:56:24,227 - INFO - Opening profile menu
+2026-11-01 19:56:24,320 - INFO - Clicking logout button
+2026-11-01 19:56:36,714 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:56:39,489 - INFO - Entering email: admin@example.com
+2026-11-01 19:56:39,553 - INFO - Entering password: ****
+2026-11-01 19:56:39,588 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:56:39,603 - INFO - Clicking Sign In button
+2026-11-01 19:56:45,803 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:56:45,811 - INFO - Opening new tab with URL: http://localhost:8000
+2026-11-01 19:57:25,468 - INFO - Switched to new window, title: Demo store
+2026-11-01 19:57:25,471 - INFO - Closing current window
+2026-11-01 19:57:25,506 - INFO - Switched back to main window, title: Dashboard
+2026-11-01 19:57:28,302 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:57:31,151 - INFO - Entering email: admin@example.com
+2026-11-01 19:57:31,215 - INFO - Entering password: ****
+2026-11-01 19:57:31,250 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:57:31,265 - INFO - Clicking Sign In button
+2026-11-01 19:57:37,454 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:57:37,462 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:57:45,915 - INFO - Clicking Create Product button
+2026-11-01 19:57:46,024 - INFO - Selecting Product Type: simple
+2026-11-01 19:57:46,608 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:57:46,654 - INFO - Entering SKU: frame-test-1793541465
+2026-11-01 19:57:46,729 - INFO - Clicking Save Product button
+2026-11-01 19:57:55,116 - INFO - Updating product name: Frame Test Product frame-test-1793541465
+2026-11-01 19:57:55,350 - INFO - Entering URL key: frame-test-1793541465
+2026-11-01 19:57:55,506 - INFO - Entering price: 99.99
+2026-11-01 19:57:55,750 - INFO - Entering weight: 1.5
+2026-11-01 19:57:55,820 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-11-01 19:57:58,888 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-11-01 19:58:01,880 - INFO - Saving product changes
+2026-11-01 19:58:06,790 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/293
+2026-11-01 19:58:15,602 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:58:18,596 - INFO - Entering email: admin@example.com
+2026-11-01 19:58:18,664 - INFO - Entering password: ****
+2026-11-01 19:58:18,701 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:58:18,715 - INFO - Clicking Sign In button
+2026-11-01 19:58:25,023 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:58:25,032 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:58:33,838 - INFO - Clicking Create Product button
+2026-11-01 19:58:37,302 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:58:39,811 - INFO - Entering email: admin@example.com
+2026-11-01 19:58:39,896 - INFO - Entering password: ****
+2026-11-01 19:58:39,938 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:58:39,953 - INFO - Clicking Sign In button
+2026-11-01 19:58:46,286 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:58:46,292 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:58:54,992 - INFO - Clicking Create Product button
+2026-11-01 19:58:55,142 - INFO - Selecting Product Type: simple
+2026-11-01 19:58:55,723 - INFO - Selecting Attribute Family: 1
+2026-11-01 19:58:55,759 - INFO - Clicking Save Product button
+2026-11-01 19:58:58,596 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:59:01,248 - INFO - Entering email: admin@example.com
+2026-11-01 19:59:01,315 - INFO - Entering password: ****
+2026-11-01 19:59:01,357 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:59:01,372 - INFO - Clicking Sign In button
+2026-11-01 19:59:07,570 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:59:07,575 - INFO - Opening sales report page: http://localhost:8000/admin/reporting/sales
+2026-11-01 19:59:15,988 - INFO - Opening start date picker
+2026-11-01 19:59:16,086 - INFO - Selecting month 6, year 2026
+2026-11-01 19:59:16,810 - INFO - Selecting date: July 15, 2026
+2026-11-01 19:59:19,793 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 19:59:22,696 - INFO - Entering email: admin@example.com
+2026-11-01 19:59:22,756 - INFO - Entering password: ****
+2026-11-01 19:59:22,791 - INFO - Checking login status before clicking Sign In
+2026-11-01 19:59:22,806 - INFO - Clicking Sign In button
+2026-11-01 19:59:29,237 - INFO - Login successful. Dashboard opened.
+2026-11-01 19:59:29,240 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 19:59:39,122 - INFO - Searching product: shirt
+2026-11-01 20:06:14,766 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:06:25,009 - INFO - Entering email: admin@example.com
+2026-11-01 20:06:25,167 - INFO - Entering password: ****
+2026-11-01 20:06:25,222 - INFO - Clicking Sign In button
+2026-11-01 20:06:25,271 - INFO - Sign In button clicked
+2026-11-01 20:06:35,487 - INFO - Dashboard page title read as: Dashboard
+2026-11-01 20:06:38,406 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:06:42,130 - INFO - Entering email: admin@example.com
+2026-11-01 20:06:42,197 - INFO - Entering password: ****
+2026-11-01 20:06:42,237 - INFO - Clicking Sign In button
+2026-11-01 20:06:42,275 - INFO - Sign In button clicked
+2026-11-01 20:07:26,001 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:07:28,818 - INFO - Entering email: admin@example.com
+2026-11-01 20:07:28,882 - INFO - Entering password: ****
+2026-11-01 20:07:28,916 - INFO - Clicking Sign In button
+2026-11-01 20:07:28,953 - INFO - Sign In button clicked
+2026-11-01 20:07:35,273 - INFO - Opening profile menu
+2026-11-01 20:07:35,340 - INFO - Clicking logout button
+2026-11-01 20:07:51,589 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:07:55,277 - INFO - Entering email: admin@example.com
+2026-11-01 20:07:55,336 - INFO - Entering password: ****
+2026-11-01 20:07:55,371 - INFO - Clicking Sign In button
+2026-11-01 20:07:55,409 - INFO - Sign In button clicked
+2026-11-01 20:08:01,857 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 20:08:11,000 - INFO - Opening next page
+2026-11-01 20:08:16,420 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:08:20,488 - INFO - Entering email: admin@example.com
+2026-11-01 20:08:20,551 - INFO - Entering password: ****
+2026-11-01 20:08:20,585 - INFO - Clicking Sign In button
+2026-11-01 20:08:20,624 - INFO - Sign In button clicked
+2026-11-01 20:08:27,059 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:08:35,680 - INFO - Clicking Create Product button
+2026-11-01 20:08:35,838 - INFO - Selecting Product Type: booking
+2026-11-01 20:08:36,404 - INFO - Selecting Attribute Family: 9
+2026-11-01 20:08:36,442 - INFO - Entering SKU: booking-test-1793542115
+2026-11-01 20:08:36,514 - INFO - Clicking Save Product button
+2026-11-01 20:08:48,760 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:08:51,524 - INFO - Entering email: admin@example.com
+2026-11-01 20:08:51,586 - INFO - Entering password: ****
+2026-11-01 20:08:51,621 - INFO - Clicking Sign In button
+2026-11-01 20:08:51,658 - INFO - Sign In button clicked
+2026-11-01 20:08:57,355 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 20:09:07,198 - INFO - Entering category name: Test Category DyKzI
+2026-11-01 20:09:07,384 - INFO - Entering position: 1
+2026-11-01 20:09:07,457 - INFO - Selecting display mode: products_and_description
+2026-11-01 20:09:07,486 - INFO - Checking filterable attribute: Price
+2026-11-01 20:09:07,606 - INFO - Entering category description: This is a test category created via Selenium.
+2026-11-01 20:09:10,006 - INFO - Entering slug: test-category-wkrcb
+2026-11-01 20:09:10,209 - INFO - Clicking Save Category button
+2026-11-01 20:09:17,842 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:09:20,558 - INFO - Entering email: admin@example.com
+2026-11-01 20:09:20,622 - INFO - Entering password: ****
+2026-11-01 20:09:20,659 - INFO - Clicking Sign In button
+2026-11-01 20:09:20,703 - INFO - Sign In button clicked
+2026-11-01 20:09:27,002 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:09:35,523 - INFO - Clicking Create Product button
+2026-11-01 20:09:35,656 - INFO - Selecting Product Type: simple
+2026-11-01 20:09:36,241 - INFO - Selecting Attribute Family: 1
+2026-11-01 20:09:36,288 - INFO - Entering SKU: simple-test-1793542175
+2026-11-01 20:09:36,355 - INFO - Clicking Save Product button
+2026-11-01 20:09:47,788 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:09:50,249 - INFO - Entering email: admin@example.com
+2026-11-01 20:09:50,323 - INFO - Entering password: ****
+2026-11-01 20:09:50,371 - INFO - Clicking Sign In button
+2026-11-01 20:09:56,198 - INFO - Sign In button clicked
+2026-11-01 20:09:56,203 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:10:04,937 - INFO - Clicking Create Product button
+2026-11-01 20:10:05,040 - INFO - Selecting Product Type: virtual
+2026-11-01 20:10:05,627 - INFO - Selecting Attribute Family: 1
+2026-11-01 20:10:05,684 - INFO - Entering SKU: virtual-test-1793542204
+2026-11-01 20:10:05,763 - INFO - Clicking Save Product button
+2026-11-01 20:10:16,247 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:10:19,222 - INFO - Entering email: admin@example.com
+2026-11-01 20:10:19,286 - INFO - Entering password: ****
+2026-11-01 20:10:19,321 - INFO - Clicking Sign In button
+2026-11-01 20:10:19,358 - INFO - Sign In button clicked
+2026-11-01 20:10:25,922 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:10:34,698 - INFO - Clicking Create Product button
+2026-11-01 20:10:34,802 - INFO - Selecting Product Type: booking
+2026-11-01 20:10:35,369 - INFO - Selecting Attribute Family: 9
+2026-11-01 20:10:35,430 - INFO - Entering SKU: booking-test-1793542234
+2026-11-01 20:10:35,513 - INFO - Clicking Save Product button
+2026-11-01 20:10:46,792 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:10:49,644 - INFO - Entering email: admin@example.com
+2026-11-01 20:10:49,727 - INFO - Entering password: ****
+2026-11-01 20:10:49,768 - INFO - Clicking Sign In button
+2026-11-01 20:10:49,806 - INFO - Sign In button clicked
+2026-11-01 20:10:55,969 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:11:04,563 - INFO - Clicking Create Product button
+2026-11-01 20:11:04,691 - INFO - Selecting Product Type: simple
+2026-11-01 20:11:05,265 - INFO - Selecting Attribute Family: 1
+2026-11-01 20:11:05,300 - INFO - Clicking Save Product button
+2026-11-01 20:11:10,100 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:11:13,709 - INFO - Entering email: admin@example.com
+2026-11-01 20:11:13,783 - INFO - Entering password: ****
+2026-11-01 20:11:13,833 - INFO - Clicking Sign In button
+2026-11-01 20:11:13,871 - INFO - Sign In button clicked
+2026-11-01 20:11:20,148 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 20:11:32,228 - INFO - Deleting United States Dollar
+2026-11-01 20:11:32,294 - INFO - Clicking Disagree on confirmation popup
+2026-11-01 20:11:35,707 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:11:38,723 - INFO - Entering email: admin@example.com
+2026-11-01 20:11:38,803 - INFO - Entering password: ****
+2026-11-01 20:11:38,847 - INFO - Clicking Sign In button
+2026-11-01 20:11:38,887 - INFO - Sign In button clicked
+2026-11-01 20:11:44,914 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 20:11:53,741 - INFO - Creating currency: Euro (EUR)
+2026-11-01 20:11:55,018 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 20:12:05,537 - INFO - Deleting currency: Euro
+2026-11-01 20:12:05,597 - INFO - Clicking Agree on confirmation popup
+2026-11-01 20:12:13,018 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:12:15,814 - INFO - Entering email: admin@example.com
+2026-11-01 20:12:15,876 - INFO - Entering password: ****
+2026-11-01 20:12:15,912 - INFO - Clicking Sign In button
+2026-11-01 20:12:15,951 - INFO - Sign In button clicked
+2026-11-01 20:12:21,703 - INFO - Opening Currencies page: http://localhost:8000/admin/settings/currencies
+2026-11-01 20:12:32,841 - INFO - Deleting United States Dollar
+2026-11-01 20:12:32,901 - INFO - Clicking Agree on confirmation popup
+2026-11-01 20:12:36,254 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:12:39,887 - INFO - Entering email: admin@example.com
+2026-11-01 20:12:39,950 - INFO - Entering password: ****
+2026-11-01 20:12:39,984 - INFO - Clicking Sign In button
+2026-11-01 20:12:40,022 - INFO - Sign In button clicked
+2026-11-01 20:12:45,782 - INFO - Opening Create Category page: http://localhost:8000/admin/catalog/categories/create
+2026-11-01 20:12:55,523 - INFO - Entering category name: Delete Test Category jdivd
+2026-11-01 20:12:55,741 - INFO - Entering position: 1
+2026-11-01 20:12:55,804 - INFO - Selecting display mode: products_and_description
+2026-11-01 20:12:55,833 - INFO - Checking filterable attribute: Price
+2026-11-01 20:12:55,886 - INFO - Entering category description: This category will be deleted in this test.
+2026-11-01 20:12:58,288 - INFO - Entering slug: delete-test-ryhca
+2026-11-01 20:12:58,417 - INFO - Clicking Save Category button
+2026-11-01 20:13:03,107 - INFO - Opening Categories list page: http://localhost:8000/admin/catalog/categories
+2026-11-01 20:13:09,657 - INFO - Clicking delete icon for category: Delete Test Category jdivd
+2026-11-01 20:13:09,703 - INFO - Clicking Agree on confirmation popup
+2026-11-01 20:13:16,118 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:13:19,818 - INFO - Entering email: admin@example.com
+2026-11-01 20:13:19,880 - INFO - Entering password: ****
+2026-11-01 20:13:19,916 - INFO - Clicking Sign In button
+2026-11-01 20:13:19,953 - INFO - Sign In button clicked
+2026-11-01 20:13:26,419 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:13:34,923 - INFO - Opening edit page for product ID: 53
+2026-11-01 20:13:41,522 - INFO - Updating product name: Azure Comfort Updated Test Product
+2026-11-01 20:13:41,797 - INFO - Saving product changes
+2026-11-01 20:13:51,502 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:13:54,685 - INFO - Entering email: admin@example.com
+2026-11-01 20:13:54,752 - INFO - Entering password: ****
+2026-11-01 20:13:54,787 - INFO - Clicking Sign In button
+2026-11-01 20:13:54,824 - INFO - Sign In button clicked
+2026-11-01 20:14:01,270 - INFO - Opening customers page: http://localhost:8000/admin/customers
+2026-11-01 20:14:10,265 - INFO - Starting customer export
+2026-11-01 20:14:10,266 - INFO - Selecting customer checkbox
+2026-11-01 20:14:13,316 - INFO - Found 1 matching checkbox labels
+2026-11-01 20:14:14,331 - INFO - Clicking Export button
+2026-11-01 20:14:16,361 - INFO - Selecting export format: xls
+2026-11-01 20:14:17,387 - INFO - Confirming export
+2026-11-01 20:14:25,318 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:14:29,206 - INFO - Entering email: admin@example.com
+2026-11-01 20:14:29,266 - INFO - Entering password: ****
+2026-11-01 20:14:29,302 - INFO - Clicking Sign In button
+2026-11-01 20:14:29,342 - INFO - Sign In button clicked
+2026-11-01 20:14:35,909 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:14:44,849 - INFO - Filtering products by status: active
+2026-11-01 20:14:59,034 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:15:03,047 - INFO - Entering email: admin@example.com
+2026-11-01 20:15:03,109 - INFO - Entering password: ****
+2026-11-01 20:15:03,145 - INFO - Clicking Sign In button
+2026-11-01 20:15:03,183 - INFO - Sign In button clicked
+2026-11-01 20:15:09,353 - INFO - Dashboard page title read as: Dashboard
+2026-11-01 20:15:12,099 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:15:15,712 - INFO - Entering email: admin@example.com
+2026-11-01 20:15:15,777 - INFO - Entering password: ****
+2026-11-01 20:15:15,845 - INFO - Clicking Sign In button
+2026-11-01 20:15:18,225 - INFO - Sign In button clicked
+2026-11-01 20:15:20,913 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:15:24,512 - INFO - Entering email: admin@example.com
+2026-11-01 20:15:24,597 - INFO - Entering password: ****
+2026-11-01 20:15:24,637 - INFO - Clicking Sign In button
+2026-11-01 20:15:24,675 - INFO - Sign In button clicked
+2026-11-01 20:15:32,700 - INFO - Opening profile menu
+2026-11-01 20:15:32,765 - INFO - Clicking logout button
+2026-11-01 20:15:47,890 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:15:51,885 - INFO - Entering email: admin@example.com
+2026-11-01 20:15:51,955 - INFO - Entering password: ****
+2026-11-01 20:15:51,996 - INFO - Clicking Sign In button
+2026-11-01 20:15:52,037 - INFO - Sign In button clicked
+2026-11-01 20:15:58,668 - INFO - Opening new tab with URL: http://localhost:8000
+2026-11-01 20:16:39,200 - INFO - Switched to new window, title: Demo store
+2026-11-01 20:16:39,205 - INFO - Closing current window
+2026-11-01 20:16:39,249 - INFO - Switched back to main window, title: Dashboard
+2026-11-01 20:16:42,069 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:16:45,291 - INFO - Entering email: admin@example.com
+2026-11-01 20:16:45,354 - INFO - Entering password: ****
+2026-11-01 20:16:45,389 - INFO - Clicking Sign In button
+2026-11-01 20:16:51,442 - INFO - Sign In button clicked
+2026-11-01 20:16:51,449 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:17:00,117 - INFO - Clicking Create Product button
+2026-11-01 20:17:00,214 - INFO - Selecting Product Type: simple
+2026-11-01 20:17:00,799 - INFO - Selecting Attribute Family: 1
+2026-11-01 20:17:00,853 - INFO - Entering SKU: frame-test-1793542620
+2026-11-01 20:17:00,925 - INFO - Clicking Save Product button
+2026-11-01 20:17:09,778 - INFO - Updating product name: Frame Test Product frame-test-1793542620
+2026-11-01 20:17:10,014 - INFO - Entering URL key: frame-test-1793542620
+2026-11-01 20:17:10,144 - INFO - Entering price: 99.99
+2026-11-01 20:17:10,218 - INFO - Entering weight: 1.5
+2026-11-01 20:17:10,286 - INFO - Entering short description: This is the SHORT description, typed via Selenium inside an iframe.
+2026-11-01 20:17:13,784 - INFO - Entering description: This is the FULL description, also typed via Selenium inside a separate iframe.
+2026-11-01 20:17:16,720 - INFO - Saving product changes
+2026-11-01 20:17:21,971 - INFO - Opening product edit page: http://localhost:8000/admin/catalog/products/edit/298
+2026-11-01 20:17:30,523 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:17:33,351 - INFO - Entering email: admin@example.com
+2026-11-01 20:17:33,414 - INFO - Entering password: ****
+2026-11-01 20:17:33,453 - INFO - Clicking Sign In button
+2026-11-01 20:17:33,499 - INFO - Sign In button clicked
+2026-11-01 20:17:40,035 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:17:48,540 - INFO - Clicking Create Product button
+2026-11-01 20:17:52,072 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:17:54,861 - INFO - Entering email: admin@example.com
+2026-11-01 20:17:54,922 - INFO - Entering password: ****
+2026-11-01 20:17:54,966 - INFO - Clicking Sign In button
+2026-11-01 20:17:55,016 - INFO - Sign In button clicked
+2026-11-01 20:18:02,068 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:18:10,648 - INFO - Clicking Create Product button
+2026-11-01 20:18:10,786 - INFO - Selecting Product Type: simple
+2026-11-01 20:18:11,352 - INFO - Selecting Attribute Family: 1
+2026-11-01 20:18:11,395 - INFO - Clicking Save Product button
+2026-11-01 20:18:14,384 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:18:17,506 - INFO - Entering email: admin@example.com
+2026-11-01 20:18:17,568 - INFO - Entering password: ****
+2026-11-01 20:18:17,603 - INFO - Clicking Sign In button
+2026-11-01 20:18:17,648 - INFO - Sign In button clicked
+2026-11-01 20:18:23,898 - INFO - Opening sales report page: http://localhost:8000/admin/reporting/sales
+2026-11-01 20:18:33,405 - INFO - Opening start date picker
+2026-11-01 20:18:33,575 - INFO - Selecting month 6, year 2026
+2026-11-01 20:18:33,835 - INFO - Selecting date: July 15, 2026
+2026-11-01 20:18:36,750 - INFO - Opening admin login page: http://localhost:8000/admin
+2026-11-01 20:18:39,657 - INFO - Entering email: admin@example.com
+2026-11-01 20:18:39,717 - INFO - Entering password: ****
+2026-11-01 20:18:39,761 - INFO - Clicking Sign In button
+2026-11-01 20:18:39,802 - INFO - Sign In button clicked
+2026-11-01 20:18:45,717 - INFO - Opening Products page: http://localhost:8000/admin/catalog/products
+2026-11-01 20:18:54,082 - INFO - Searching product: shirt

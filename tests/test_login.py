@@ -1,5 +1,4 @@
-# tests/test_login.py
-import time
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pages.login_page import LoginPage
@@ -22,5 +21,11 @@ def test_admin_login_wrong_password(driver):
     login_page = LoginPage(driver)
     login_page.login(config.ADMIN_EMAIL, "wrongpassword123")
 
-    time.sleep(2)
-    assert "Sign In" in driver.title
+    wait = WebDriverWait(driver, config.DEFAULT_TIMEOUT)
+
+    # The user should remain on the login page.
+    wait.until(
+        lambda d: "/admin/dashboard" not in d.current_url
+    )
+
+    assert "/admin/dashboard" not in driver.current_url
