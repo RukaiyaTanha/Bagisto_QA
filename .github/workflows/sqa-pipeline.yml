@@ -22,26 +22,29 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # 2. Setup Python
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10.11'
-          cache: 'pip'
-
       # 3. Check environment
       - name: Check Environment
         run: |
-          python --version
-          pip --version
-          google-chrome --version
-        continue-on-error: true
+          $python = "G:\Software\python 3.10\python.exe"
+
+          if (-not (Test-Path $python)) {
+            throw "Python 3.10.11 was not found at $python"
+          }
+
+          & $python --version
+          & $python -m pip --version
 
       # 4. Install dependencies
       - name: Install Dependencies
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          $python = "G:\Software\python 3.10\python.exe"
+
+          & $python -m pip install --upgrade pip
+          & $python -m pip install -r requirements.txt
+
+          if ($LASTEXITCODE -ne 0) {
+            throw "Dependency installation failed."
+          }
 
       # 5. Prepare directories
       - name: Prepare Test Directories
@@ -76,12 +79,17 @@ jobs:
           BASE_URL: ${{ secrets.BASE_URL }}
           ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
           ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
-
         run: |
-          python -m pytest tests/ `
+          $python = "G:\Software\python 3.10\python.exe"
+
+          & $python -m pytest tests/ `
             --html=report.html `
             --self-contained-html `
             -v
+
+          if ($LASTEXITCODE -ne 0) {
+            throw "Selenium tests failed."
+          }
 
       # 8. Upload HTML report
       - name: Upload Test Report
